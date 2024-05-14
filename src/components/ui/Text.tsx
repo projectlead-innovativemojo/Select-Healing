@@ -19,7 +19,7 @@ const Text = forwardRef<HTMLHeadingElement | HTMLParagraphElement, Props>(
         <h1
           ref={ref}
           className={cn(
-            "font-bold  text-[64px] leading-[59px] text-[#FFFFFF] font-rajdhani   ",
+            "font-bold  text-[64px] leading-[83.2px] text-[#041F60] font-libre   ",
             className
           )}
           onClick={onClick}
@@ -35,7 +35,7 @@ const Text = forwardRef<HTMLHeadingElement | HTMLParagraphElement, Props>(
         <h2
           ref={ref}
           className={cn(
-            "font-normal font-rajdhani text-[40px] leading-[43.2px] text-[#FFFFFF]  ",
+            "font-bold font-Poppins text-[32px] leading-[41.6px] text-[#041F60]  ",
             className
           )}
           id={id}
@@ -50,7 +50,7 @@ const Text = forwardRef<HTMLHeadingElement | HTMLParagraphElement, Props>(
       <p
         ref={ref}
         className={cn(
-          "   text-[#FFFFFF] text-[14px] font-normal leading-[22.4px] font-inter  ",
+          "   text-[#FFFFFF] text-[20px] font-normal leading-[26px] font-Poppins  ",
           className
         )}
         onClick={onClick}

@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({ text = "Explore Music", children, class
   return (
     <>
      
-      <button className={cn(" w-full rounded-[150px] bg-[#191A05] border-[#191A05] border text-[15px] font-inter font-medium leading-[25.5px] text-[#FFFFFF]",  className)}>
+      <button className={cn(" w-full h-[65.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]",  className)}>
         {children || text} {/* Use children if available, otherwise use text */}
       </button>
     </>

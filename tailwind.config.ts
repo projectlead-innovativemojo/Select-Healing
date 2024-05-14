@@ -11,8 +11,8 @@ const config: Config = {
       fontFamily: {
         inter: ["var(--font-inter)"],
         monts: ["var(--font-monts)"],
-        rajdhani: ["var(--font-rajdhani)"],
-        inknut: ["var(--font-inknut)"],
+        libre: ["var(--font-libre)"],
+        poppins: ["var(--font-poppins)"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
