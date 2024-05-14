@@ -32,7 +32,7 @@ const Journey = () => {
           </Text>
         </div>
 
-        <div className="w-full flex flex-wrap gap-14 pt-16 ">
+        <div className="w-full flex flex-wrap justify-center gap-14 pt-16 ">
             {/* 1 */}
           <div className="flex-col w-full max-w-[370.09px]">
             <Image src={j1} alt="" width={427.09} height={289.44} />
