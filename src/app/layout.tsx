@@ -1,8 +1,24 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Montserrat,Libre_Baskerville,Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+
+const monts = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-monts",
+});
+const libre = Libre_Baskerville({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-libre",
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "700"], // specify the weights you need
+  variable: "--font-poppins",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={` ${inter.variable}  ${monts.variable} ${libre.variable} ${poppins.variable}  `}>
+        {children}
+      </body>
     </html>
   );
 }
