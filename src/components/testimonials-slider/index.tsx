@@ -35,8 +35,8 @@ function TestimonialSlider() {
   return (
     <div className="parent-div bg-[#F0F3FF] pt-[80px] pb-[80px] mb-16">
       <div className="swiper-main-div">
-        <div className=" mb-[72px] mob:mb-0">
-          <div className="  mob:mt-14 2xl:gap-0 flex items-center mob:px-0 justify-center gap-[722px] tab:flex-col mob:flex-col mob:gap-0 tab:gap-10 ">
+        <div className=" mb-[72px] mob:mb-0 flex justify-center w-full">
+          <div className="  mob:mt-14 xl:gap-0 flex w-full items-center mob:px-0 justify-between max-w-[1140.36px] px-5 tab:flex-col mob:flex-col mob:gap-0 tab:gap-10 ">
             <div className="flex flex-col relative">
               <Text as="h1" className=" mob:text-[40px]">
                 Testimonials
@@ -79,18 +79,10 @@ function TestimonialSlider() {
         </div>
 
         <Swiper
-          // onSlideChange={handleSlideChange}
           slidesPerView={3}
-          // activeIndex={activeIndex}
-          //   initialSlide={1}
           spaceBetween={40}
           centeredSlides={true}
-          // slidesPerGroupSkip={3}
-          // scrollbar={true}
           loop={true}
-          //   pagination={{
-          //     dynamicBullets: true,
-          //   }}
           navigation={{
             nextEl: ".custom-next",
 
