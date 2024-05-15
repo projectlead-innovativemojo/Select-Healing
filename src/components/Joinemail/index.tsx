@@ -23,7 +23,7 @@ const Joinemail = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch("/api/subscribe", {
+      const response = await fetch("/api/sendSubscribe", {
         method: "POST",
         headers: {
           "content-type": "application/json",
