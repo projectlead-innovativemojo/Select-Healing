@@ -52,10 +52,10 @@ function TestimonialSlider() {
             <div className="flex gap-[18px] mob:gap-10">
               <div
                 onClick={handleprevbtn}
-                className="w[59px] h-[59px] mob:w-[55px] mob:h-[55px] rounded-[100px] border-[1px] border-[#041F60] flex justify-center items-center  py-4 px-[22px]"
+                className="w-[59px] h-[59px] custom-prev  mob:w-[55px] mob:h-[55px] rounded-[100px] border-[1px] border-[#041F60] flex justify-center items-center  py-4 px-[22px] cursor-pointer"
               >
                 <Image
-                  className="custom-prev"
+                  // className="custom-prev"
                   src={moveprevbtn}
                   alt="moveprevbtn"
                   width={13}
@@ -64,10 +64,10 @@ function TestimonialSlider() {
               </div>
               <div
                 onClick={handleNextvbtn}
-                className="w[59px] h-[59px] mob:w-[55px] mob:h-[55px] rounded-[100px] border-[1px] border-[#041F60] flex justify-center items-center  py-4 px-[22px]"
+                className="w-[59px] h-[59px] custom-next mob:w-[55px] mob:h-[55px] rounded-[100px] border-[1px] border-[#041F60] flex justify-center items-center  py-4 px-[22px] cursor-pointer"
               >
                 <Image
-                  className="custom-next"
+                  // className="custom-next"
                   src={movenextbtn}
                   alt="movenextbtn"
                   width={13}
