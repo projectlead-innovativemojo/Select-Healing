@@ -12,13 +12,25 @@ const Youcan = () => {
     <>
       <div className="flex justify-center w-full -mt-32 pb-32">
         <div className="max-w-[1440px] w-full px-5">
-          <Image
+          {/* <Image
             className="cursor-pointer"
             src={banner}
             alt=""
             width={1607.34}
             height={1182.23}
-          />
+          /> */}
+      <video
+      className="cursor-pointer rounded-[30px] w-full"
+      src=""
+      poster="/images/home/youcan.png" 
+      width={1607.34}
+      height={1182.23}
+      loop
+      playsInline
+      controls
+    >
+     
+    </video>
           <div className="flex justify-center my-12">
             <Text
               as="h1"
