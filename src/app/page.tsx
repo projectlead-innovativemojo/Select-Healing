@@ -6,6 +6,7 @@ import Joinemail from "@/components/Joinemail";
 import Journey from "@/components/Journey";
 
 import TestimonialSlider from "@/components/testimonials-slider";
+import Workshops from "@/components/Workshops";
 import Youcan from "@/components/Youcan";
 import Image from "next/image";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero/>
       <David/>
       <Journey/>
+      <Workshops/>
       <Heal/>
       <Youcan/>
         <TestimonialSlider />
