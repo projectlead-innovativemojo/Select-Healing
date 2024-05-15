@@ -131,9 +131,9 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
                   >
-                    Boost your product and service's credibility by adding
+                    Boost your product and services credibility by adding
                     testimonials from your clients. People love recommendations
-                    so feedback from others who've tried it is invaluable.
+                    so feedback from others who&apos;ve tried it is invaluable.
                   </Text>
                   <Image
                     src={sliderImage}
@@ -164,9 +164,9 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
                   >
-                    Boost your product and service's credibility by adding
+                    Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
-                    so feedback from others who've tried it is invaluable.
+                    so feedback from others who&apos;ve tried it is invaluable.
                   </Text>
                   <Image
                     src={sliderImage}
@@ -197,9 +197,9 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
                   >
-                    Boost your product and service's credibility by adding
+                    Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
-                    so feedback from others who've tried it is invaluable.
+                    so feedback from others who&apos;ve tried it is invaluable.
                   </Text>
                   <Image
                     src={sliderImage}
@@ -230,9 +230,9 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
                   >
-                    Boost your product and service's credibility by adding
+                    Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
-                    so feedback from others who've tried it is invaluable.
+                    so feedback from others who&apos;ve tried it is invaluable.
                   </Text>
                   <Image
                     src={sliderImage}
@@ -263,9 +263,9 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
                   >
-                    Boost your product and service's credibility by adding
+                    Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
-                    so feedback from others who've tried it is invaluable.
+                    so feedback from others who&apos;ve tried it is invaluable.
                   </Text>
                   <Image
                     src={sliderImage}
@@ -296,9 +296,9 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
                   >
-                    Boost your product and service's credibility by adding
+                    Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
-                    so feedback from others who've tried it is invaluable.
+                    so feedback from others who&apos;ve tried it is invaluable.
                   </Text>
                   <Image
                     src={sliderImage}
