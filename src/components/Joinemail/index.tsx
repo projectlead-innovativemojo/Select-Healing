@@ -3,8 +3,10 @@ import Image from "next/image";
 
 import headingbg from "@/public/images/home/headingbg.png";
 import headingbgblue from "@/public/images/home/headingbgblue.png";
-import icon from "@/public/images/home/Ellipse 302.svg";
-import blue from "@/public/images/home/blue.svg";
+import submit from "@/public/images/home/form.png";
+import fb from "@/public/images/home/fb.png";
+import insta from "@/public/images/home/insta.png";
+import youtube from "@/public/images/home/youtube.png";
 
 import Text from "../ui/Text";
 
@@ -39,7 +41,7 @@ const Joinemail = () => {
                 type="email"
                 placeholder="Enter Your Email..."
               />
-              <Image className="absolute right-4 cursor-pointer" src={icon} alt="" width={45.45} height={45.45} />
+              <Image className="absolute right-4 cursor-pointer" src={submit} alt="" width={45.45} height={45.45} />
             </div>
           </div>
         </div>
@@ -67,19 +69,22 @@ const Joinemail = () => {
             </div>
             <div className="relative flex items-center justify-center gap-8">
             <Image
-                  src={blue}
+            className="cursor-pointer"
+                  src={fb}
                   alt=""
                   width={63.94}
                   height={63.94}
                 />
             <Image
-                  src={blue}
+            className="cursor-pointer"
+                  src={insta}
                   alt=""
                   width={63.94}
                   height={63.94}
                 />
             <Image
-                  src={blue}
+            className="cursor-pointer"
+                  src={youtube}
                   alt=""
                   width={63.94}
                   height={63.94}

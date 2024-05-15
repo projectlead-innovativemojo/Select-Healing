@@ -3,7 +3,11 @@ import Image from "next/image";
 
 import headingbg from "@/public/images/home/headingbg.png";
 import banner from "@/public/images/home/youcan.png";
-import circle from "@/public/images/home/circle.png";
+import icon1 from "@/public/images/home/icon1.png";
+import icon2 from "@/public/images/home/icon2.png";
+import icon3 from "@/public/images/home/icon3.png";
+import icon4 from "@/public/images/home/icon4.png";
+import icon5 from "@/public/images/home/icon5.png";
 
 import Text from "../ui/Text";
 import Content from "./Content";
@@ -48,11 +52,11 @@ const Youcan = () => {
           </div>
           {/*  */}
           <div className="flex flex-wrap justify-center gap-16">
-            <Content text="Lasting Pain Relief" imgpath={circle} />
-            <Content text="Improved Quality of Life" imgpath={circle} />
-            <Content text="Regain Control" imgpath={circle} />
-            <Content text="Reduce Dependency" imgpath={circle} />
-            <Content text="Prevent Future Pain" imgpath={circle} />
+            <Content text="Lasting Pain Relief" imgpath={icon1} />
+            <Content text="Improved Quality of Life" imgpath={icon2} />
+            <Content text="Regain Control" imgpath={icon3} />
+            <Content text="Reduce Dependency" imgpath={icon4} />
+            <Content text="Prevent Future Pain" imgpath={icon5} />
           </div>
         </div>
       </div>
