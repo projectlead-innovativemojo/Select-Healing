@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import { useState, MouseEvent, FormEvent } from "react";
 import Image from "next/image";
 
 import headingbg from "@/public/images/home/headingbg.png";
@@ -11,6 +12,43 @@ import youtube from "@/public/images/home/youtube.png";
 import Text from "../ui/Text";
 
 const Joinemail = () => {
+
+  const [email, setEmail] = useState("");
+  const [successMessage, setSuccessMessage] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
+  const [emailError, setEmailError] = useState<string>("");
+
+
+  const sendMail = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    try {
+      const response = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSuccessMessage("Subscribed Successfully!");
+        alert("Subscribed successfully!");
+        setEmail("");
+      } else {
+        throw new Error(data.message || "Failed to send email");
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      alert("Failed to send email. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  };
   return (
     <>
       <div className="flex xl:flex-wrap  gap-10 justify-center mb-32 px-5">
@@ -35,14 +73,26 @@ const Joinemail = () => {
                 />
               </Text>
             </div>
+            <form  onSubmit={sendMail} >
+          
             <div className="relative flex items-center">
               <input
-                className="px-12 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px] "
+                className="px-12 mob:pl-6 mob:pr-16 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px]   "
                 type="email"
                 placeholder="Enter Your Email..."
+                value={email}
+                required
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  setEmailError("");
+                }}
               />
-              <Image className="absolute right-4 cursor-pointer" src={submit} alt="" width={45.45} height={45.45} />
+              
+            <button className="absolute right-4">
+            {loading ? "Subscribing..." : <Image className=" cursor-pointer" src={submit} alt="" width={45.45} height={45.45} />}
+            </button>
             </div>
+            </form>
           </div>
         </div>
 

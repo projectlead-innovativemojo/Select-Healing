@@ -4,6 +4,8 @@ import Image from "next/image";
 import footlogo from "@/public/images/home/logofooter.png";
 import Text from "../ui/Text";
 const Footer = () => {
+
+  
   return (
     <>
      <div className="px-5">
@@ -13,7 +15,7 @@ const Footer = () => {
       <div className="flex justify-center mt-4">
         <Text
           as="p"
-          className="text-[#7B7B7B] max-w-[704.52px] text-[20px] text-center capitalize"
+          className="text-[#7B7B7B] max-w-[789.52px] text-[20px] text-center capitalize"
         >
           Disclaimer: Nothing contained on this website is intended to provide
           health care advice. Should you have any health care-related questions,
@@ -30,7 +32,7 @@ const Footer = () => {
             <div className="flex-col">
               <Text
                 as="p"
-                className="text-[#7B7B7B] text-[20px] text-center capitalize"
+                className="text-[#7B7B7B] text-[16px] text-center capitalize"
               >
                 © 2024 Select Healing. All Rights Reserved.
               </Text>
@@ -39,7 +41,7 @@ const Footer = () => {
             <div className="flex-col">
               <Text
                 as="p"
-                className="text-[#7B7B7B]  text-[20px] text-center capitalize mob:mt-4"
+                className="text-[#7B7B7B]  text-[16px] text-center capitalize mob:mt-4"
               >
                 Privacy Terms
               </Text>

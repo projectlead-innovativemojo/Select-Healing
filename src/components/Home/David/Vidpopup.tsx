@@ -23,7 +23,7 @@ const Vidpopup: React.FC = () => {
   return (
     <div className="relative z-40">
       <div className="max-w-[267.45px]" onClick={handleOpen}>
-        <Button className="max-w-[267.45px] mt-5">Watch the Video</Button>
+        <Button className="max-w-[267.45px] mob:w-[267.45px] mt-5">Watch the Video</Button>
       </div>
 
       {isOpen && (
