@@ -4,6 +4,7 @@ import Image from "next/image";
 import david from "@/public/images/home/david.png";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
+import Vidpopup from "./Vidpopup";
 
 const David = () => {
   return (
@@ -22,7 +23,7 @@ const David = () => {
                 as="p"
                 className="text-[#FFFFFF] text-[32px] font-poppins leading-[41.6px] mob:text-center"
               >
-                Hi, there.
+                Hi, There.
               </Text>
               <Text
                 as="h1"
@@ -51,9 +52,7 @@ const David = () => {
               </Text>
 
               <div className="mob:flex mob:justify-center">
-                <Button className="max-w-[267.45px] mt-5">
-                  Watch the Video
-                </Button>
+                <Vidpopup/>
               </div>
             </div>
           </div>

@@ -5,9 +5,9 @@ import Text from "../ui/Text";
 import Button from "../ui/Button";
 
 import headingbg from "@/public/images/home/headingbg.png";
-import j1 from "@/public/images/home/j1.png";
-import j2 from "@/public/images/home/j2.png";
-import j3 from "@/public/images/home/j3.png";
+import j1 from "@/public/images/home/backpain.png";
+import j2 from "@/public/images/home/sindaystretch.png";
+import j3 from "@/public/images/home/connect.png";
 
 const Journey = () => {
   return (
