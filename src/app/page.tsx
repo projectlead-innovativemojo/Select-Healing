@@ -4,17 +4,21 @@ import Heal from "@/components/Home/Heal";
 import Hero from "@/components/Home/Hero";
 import Joinemail from "@/components/Joinemail";
 import Journey from "@/components/Journey";
+
+import TestimonialSlider from "@/components/testimonials-slider";
 import Youcan from "@/components/Youcan";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="">
+
       <Hero/>
       <David/>
       <Journey/>
       <Heal/>
       <Youcan/>
+        <TestimonialSlider />
       <Joinemail/>
       <Footer/>
     </main>
