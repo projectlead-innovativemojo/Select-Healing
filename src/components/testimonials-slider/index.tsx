@@ -33,7 +33,7 @@ function TestimonialSlider() {
   );
 
   return (
-    <div className="parent-div bg-[#F0F3FF] pt-[123px] pb-[123px]">
+    <div className="parent-div bg-[#F0F3FF] pt-[80px] pb-[80px] mb-16">
       <div className="swiper-main-div">
         <div className=" mb-[72px] mob:mb-0">
           <div className="  mob:mt-14 2xl:gap-0 flex items-center mob:px-0 justify-center gap-[722px] tab:flex-col mob:flex-col mob:gap-0 tab:gap-10 ">
