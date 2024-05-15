@@ -121,7 +121,7 @@ function TestimonialSlider() {
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
                     Boost your product and services credibility by adding
                     testimonials from your clients. People love recommendations
@@ -154,7 +154,7 @@ function TestimonialSlider() {
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
                     Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
@@ -187,7 +187,7 @@ function TestimonialSlider() {
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
                     Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
@@ -220,7 +220,7 @@ function TestimonialSlider() {
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
                     Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
@@ -253,7 +253,7 @@ function TestimonialSlider() {
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
                     Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations
@@ -286,7 +286,7 @@ function TestimonialSlider() {
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
                     Boost your product and service&apos;s credibility by adding
                     testimonials from your clients. People love recommendations

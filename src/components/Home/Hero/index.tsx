@@ -10,8 +10,9 @@ import Button from "@/components/ui/Button";
 
 const Hero = () => {
   return (
-    <div className="relative w-full min-h-[100vh] mob:min-h-[600px]">
+  <div className="relative min-h-[100vh] mob:min-h-[600px]">
       <Navbar />
+      <div className=" w-full flex items-center  min-h-[70vh] mob:min-h-[500px]">
       <Image
         className="absolute object-cover bg-center w-full  h-full top-0 z-0"
         src={bg}
@@ -21,9 +22,12 @@ const Hero = () => {
       />
 
       {/* content */}
-      <div className="relative z-10 flex justify-center items-center w-full pt-[50px] pb-[50px] mob:px-5 ">
+      <div className="relative z-10 flex justify-center items-center w-full pt-[50px] pb-[70px] mob:px-5 ">
         <div className="max-w-[906.89px] w-full">
-          <Text as="h1" className="max-w-[688.48px] relative  mob:text-[30px] mob:leading-[45px] mob:max-w-full mob:text-center">
+          <Text
+            as="h1"
+            className="max-w-[688.48px] relative  mob:text-[30px] mob:leading-[45px] mob:max-w-full mob:text-center"
+          >
             <span className="relative z-10 ]">
               {" "}
               Start Today, ​Transform ​Your Body ​And Your Life.
@@ -36,12 +40,13 @@ const Hero = () => {
               height={38.1}
             />
           </Text>
-<div className="mob:flex mob:justify-center">
-<Button className="max-w-[231.75px] mt-5">Find Out How</Button>
-</div>
+          <div className="mob:flex mob:justify-center">
+            <Button className="max-w-[231.75px] mt-5">Find Out How</Button>
+          </div>
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
