@@ -61,9 +61,9 @@ const Workshops = () => {
         />
        </div> */}
 
-<div className="w-full flex flex-wrap justify-center gap-14 mb-28">
+<div className="w-full flex flex-wrap  justify-between mb-28 max-w-[1300px] lg:justify-center lg:gap-14">
             {/* 1 */}
-          <div className="flex-col w-full max-w-[300.09px]">
+          <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j1} alt="" width={427.09} height={289.44} />
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
             Creating Postural Therapy Routines
@@ -76,7 +76,7 @@ const Workshops = () => {
           </div>
 
           {/* 2 */}
-          <div className="flex-col w-full max-w-[300.09px]">
+          <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j2} alt="" width={427.09} height={289.44} />
           
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-[37px]">
@@ -90,7 +90,7 @@ const Workshops = () => {
           </div>
 
           {/* 3 */}
-          <div className="flex-col w-full max-w-[300.09px]">
+          <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j3} alt="" width={427.09} height={289.44} />
            
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
@@ -104,7 +104,7 @@ const Workshops = () => {
           </div>
 
           {/* 4 */}
-          <div className="flex-col w-full max-w-[300.09px]">
+          <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j4} alt="" width={427.09} height={289.44} />
            
             <Text as="h2" className="text-center text-[24px] leading-[31.2px] my-[37px]">
