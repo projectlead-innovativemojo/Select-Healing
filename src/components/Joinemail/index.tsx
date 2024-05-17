@@ -77,7 +77,7 @@ const Joinemail = () => {
           
             <div className="relative flex items-center">
               <input
-                className="px-12 mob:pl-6 mob:pr-16 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px]   "
+                className="px-12 mob:pl-6 mob:pr-16 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px] placeholder:text-[#A5A5A5]  "
                 type="email"
                 placeholder="Enter Your Email..."
                 value={email}

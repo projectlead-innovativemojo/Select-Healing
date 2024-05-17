@@ -4,10 +4,10 @@ import Image from "next/image";
 import Text from "../ui/Text";
 
 import headingbg from "@/public/images/home/headingbg.png";
-import j1 from "@/public/images/home/t1.png";
-import j2 from "@/public/images/home/t2.png";
-import j3 from "@/public/images/home/t3.png";
-import j4 from "@/public/images/home/t4.png";
+import j1 from "@/public/images/home/tn1.png";
+import j2 from "@/public/images/home/tn2.png";
+import j3 from "@/public/images/home/tn3.png";
+import j4 from "@/public/images/home/tn4.png";
 import Button from "../ui/Button";
 
 const Workshops = () => {
@@ -69,7 +69,7 @@ const Workshops = () => {
             Creating Postural Therapy Routines
             </Text>
             <div className="flex justify-center ">
-              <Button className="max-w-[235.55px] h-[65.66px]">
+              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
             </div>
@@ -83,7 +83,7 @@ const Workshops = () => {
             Exercise Dissection
             </Text>
             <div className="flex justify-center ">
-              <Button className="max-w-[235.55px] h-[65.66px]">
+              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
             </div>
@@ -97,7 +97,7 @@ const Workshops = () => {
             Discovering the <br /> Postural Nuances
             </Text>
             <div className="flex justify-center ">
-              <Button className="max-w-[235.55px] h-[65.66px]">
+              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
             </div>
@@ -111,7 +111,7 @@ const Workshops = () => {
             Shoulder Girdle
             </Text>
             <div className="flex justify-center ">
-              <Button className="max-w-[235.55px] h-[65.66px]">
+              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
             </div>

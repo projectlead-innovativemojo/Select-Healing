@@ -52,8 +52,8 @@ const Youcan = () => {
           </div>
           {/*  */}
           <div className="flex flex-wrap justify-center gap-16">
-            <Content text="Lasting Pain Relief" imgpath={icon1} />
-            <Content text="Improved Quality of Life" imgpath={icon2} />
+            <Content text="Achieve Lasting Pain Relief" imgpath={icon1} />
+            <Content text="Improve Quality of Life" imgpath={icon2} />
             <Content text="Regain Control" imgpath={icon3} />
             <Content text="Reduce Dependency" imgpath={icon4} />
             <Content text="Prevent Future Pain" imgpath={icon5} />
