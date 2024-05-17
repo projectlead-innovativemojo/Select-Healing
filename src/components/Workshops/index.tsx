@@ -20,7 +20,7 @@ const Workshops = () => {
         >
           <span className="relative z-10 ]">
             {" "}
-            Courses and Workshops for Therapists
+            Courses and Workshops for Health Practitioners.
           </span>
           <Image
             className="absolute  bottom-[0] left-[30%] mob:left-0 z-0"

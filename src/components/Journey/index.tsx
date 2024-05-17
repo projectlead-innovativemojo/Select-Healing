@@ -20,7 +20,7 @@ const Journey = () => {
           >
             <span className="relative z-10 ]">
               {" "}
-              Your Learning Journey to Pain ​Free Living
+              Pathways to Self-Healing and Transformation.
             </span>
             <Image
               className="absolute  bottom-[0] left-[30%] mob:left-0 z-0"

@@ -57,15 +57,14 @@ const Joinemail = () => {
             <div className="flex justify-center mob:mb-8 mb-12">
               <Text
                 as="h1"
-                className="max-w-[760.91px] relative text-center text-[#FFFFFF] text-[38px] mob:text-[20px] leading-[62.4px] mob:leading-[35px] mob:max-w-full mob:text-center"
+                className="max-w-[760.91px] relative text-center text-[#FFFFFF] text-[38px] mob:text-[20px] leading-[62.4px] mob:leading-[35px] mob:max-w-full mob:text-center "
               >
-                <span className="relative z-10 ]">
+                <span className="relative z-10 capitalize">
                   {" "}
-                  Join Our Email List For Weekly Newsletters And ​Updates On
-                  Select Healing ​Specials And Events.
+                  Join our email list for useful tips on health and healing, and updates on Select Healing specials and events.
                 </span>
                 <Image
-                  className="absolute  bottom-[46%] left-[32%]  z-0 mob:hidden"
+                  className="absolute  bottom-[37%] left-[32%]  z-0 mob:hidden"
                   src={headingbg}
                   alt=""
                   width={342.74}
@@ -104,9 +103,9 @@ const Joinemail = () => {
                 as="h1"
                 className="max-w-[760.91px] relative text-center text-[#FFFFFF] text-[38px] mob:text-[20px] leading-[62.4px] mob:leading-[35px] mob:max-w-full mob:text-center"
               >
-                <span className="relative z-10 ]">
+                <span className="relative z-10 capitalize">
                   {" "}
-                  Follow Select ​Healing For Tips On ​Living A Pain-Free ​Life!
+                  Follow Select Healing for tips on finding health and balance in body, mind, and life!
                 </span>
                 <Image
                   className="absolute  top-[18%] left-[0%]  z-0 mob:hidden"

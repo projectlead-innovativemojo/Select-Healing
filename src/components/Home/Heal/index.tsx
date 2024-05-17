@@ -17,26 +17,14 @@ const Heal = () => {
               Learn To Heal <br /> Yourself
               </Text>
               <Text as="p" className="my-3 mob:text-center">
-                If you’re like the millions of people who struggle with chronic
-                pain ​on a daily basis, you have been through a lot of
-                treatments, with ​hope that you might find relief, only to be
-                let down, and frustrated ​with yet another ineffective
-                treatment. You may even feel like ​there’s no hope for relief,
-                or even normalcy.
+              The mission of Select Healing is to help people discover how to transform their bodies and lives through scientifically proven exercises, meditations, and self-healing techniques. We believe in empowering you to heal yourself, thereby putting your health back in your hands where it rightly belongs.
               </Text>
               <Text as="p" className="my-6 mob:text-center">
-                I’m here to tell you that with a little bit of work, and focus,
-                you CAN ​find relief. If you’re looking for a lasting solution,
-                that you can ​control, and won’t cost you ongoing fees, never
-                ending ​appointments and treatments, you’ve come to the right
-                place.
+              Whether you're seeking solutions for chronic pain, more balance in mind and body, enhanced muscle and joint flexibility, techniques to relieve stress, or simply a pathway to find optimal health, Select Healing is here to guide and support you every step of the way.
               </Text>
               <Text as="p" className="my-3 mob:text-center">
-                My SelectHealing: Connect digital course will teach you how to
-                dig ​deep into the root cause of your pain. This course is a
-                self-driven, ​holistic approach to relieving chronic pain. It
-                will be your life long ​toolkit on a transformative journey to
-                lasting relief, and a life ​without restrictions and pain
+              We offer courses, retreats, live and recorded "Sunday Stretch" classes, and continued education workshops for health practitioners seeking to add new knowledge and added value to their clients. Simply put, we're here to help you thrive in body, mind, and life. 
+
               </Text>
 
               <div className="mob:flex mob:justify-center">
