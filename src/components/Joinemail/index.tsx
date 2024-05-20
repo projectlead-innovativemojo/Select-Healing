@@ -5,9 +5,9 @@ import Image from "next/image";
 import headingbg from "@/public/images/home/headingbg.png";
 import headingbgblue from "@/public/images/home/headingbgblue.png";
 import submit from "@/public/images/home/form.png";
-import fb from "@/public/images/home/fb.png";
-import insta from "@/public/images/home/insta.png";
-import youtube from "@/public/images/home/youtube.png";
+import fb from "@/public/icons/Icon_11_.svg";
+import insta from "@/public/icons/Group 1000007395.svg";
+import youtube from "@/public/icons/XMLID_822_.svg";
 
 import Text from "../ui/Text";
 import Link from "next/link";
@@ -127,33 +127,46 @@ const Joinemail = () => {
               </Text>
             </div>
             <div className="relative flex items-center justify-center gap-8">
-              <Image
-                className="cursor-pointer"
-                src={fb}
-                alt=""
-                width={63.94}
-                height={63.94}
-              />
-
-              <Link href="https://www.instagram.com/select.healing/">
+              <Link
+                className="bg-[#041F60] flex justify-center items-center rounded-[50%] w-[55px] h-[55px]"
+                href="#"
+              >
                 <Image
-                  className="cursor-pointer"
+                  className="cursor-pointer w-[16px]"
+                  src={fb}
+                  alt=""
+                  width={47.94}
+                  height={47.94}
+                />
+              </Link>
+
+              <Link
+                className="bg-[#041F60] flex justify-center items-center rounded-[50%] w-[55px] h-[55px]"
+                href="https://www.instagram.com/select.healing/"
+              >
+                <Image
+                  className="cursor-pointer w-[28px] mob:w-[25px]"
                   src={insta}
                   alt=""
-                  width={63.94}
-                  height={63.94}
+                  width={47.94}
+                  height={47.94}
                 />
               </Link>
 
-              <Link href="https://www.youtube.com/@davidstarbucksmith">
+              <Link
+                className="bg-[#041F60] flex justify-center items-center rounded-[50%] w-[55px] h-[55px]"
+                href="https://www.youtube.com/@davidstarbucksmith"
+              >
                 <Image
-                  className="cursor-pointer"
+                  className="cursor-pointer w-[28px]"
                   src={youtube}
                   alt=""
-                  width={63.94}
-                  height={63.94}
+                  width={47.94}
+                  height={47.94}
                 />
               </Link>
+
+             
             </div>
           </div>
         </div>
