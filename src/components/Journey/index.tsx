@@ -47,7 +47,7 @@ const Journey = () => {
             </Text>
             <div className="flex justify-center mt-8">
               <Button className="max-w-[235.55px] h-[65.66px]">
-                Comming Soon
+                Coming Soon
               </Button>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Journey = () => {
             </Text>
             <div className="flex justify-center mt-8">
               <Button className="max-w-[235.55px] h-[65.66px]">
-              Comming Soon
+              Coming Soon
               </Button>
             </div>
           </div>
