@@ -25,7 +25,7 @@ const Youcan = () => {
           /> */}
       <video
       className="cursor-pointer rounded-[30px] w-full"
-      src=""
+      src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
       poster="/images/home/youcan.png" 
       width={1607.34}
       height={1182.23}
