@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState, MouseEvent, FormEvent } from "react";
 import Image from "next/image";
 
@@ -10,14 +10,13 @@ import insta from "@/public/images/home/insta.png";
 import youtube from "@/public/images/home/youtube.png";
 
 import Text from "../ui/Text";
+import Link from "next/link";
 
 const Joinemail = () => {
-
   const [email, setEmail] = useState("");
   const [successMessage, setSuccessMessage] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [emailError, setEmailError] = useState<string>("");
-
 
   const sendMail = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -52,7 +51,7 @@ const Joinemail = () => {
   return (
     <>
       <div className="flex xl:flex-wrap  gap-10 justify-center mb-32 px-5">
-      <div className="flex-col min-h-[500.04px] mob:min-h-full mob:py-10 py-2 rounded-[30px] bg-[#041F60] flex items-center justify-center">
+        <div className="flex-col min-h-[500.04px] mob:min-h-full mob:py-10 py-2 rounded-[30px] bg-[#041F60] flex items-center justify-center">
           <div className=" max-w-[695.46px] px-12 mob:px-4 overflow-hidden">
             <div className="flex justify-center mob:mb-8 mb-12">
               <Text
@@ -61,7 +60,8 @@ const Joinemail = () => {
               >
                 <span className="relative z-10 capitalize">
                   {" "}
-                  Join our email list for useful tips on health and healing, and updates on Select Healing specials and events.
+                  Join our email list for useful tips on health and healing, and
+                  updates on Select Healing specials and events.
                 </span>
                 <Image
                   className="absolute  bottom-[37%] left-[32%]  z-0 mob:hidden"
@@ -72,25 +72,34 @@ const Joinemail = () => {
                 />
               </Text>
             </div>
-            <form  onSubmit={sendMail} >
-          
-            <div className="relative flex items-center">
-              <input
-                className="px-12 mob:pl-6 mob:pr-16 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px] placeholder:text-[#A5A5A5]  "
-                type="email"
-                placeholder="Enter Your Email..."
-                value={email}
-                required
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                  setEmailError("");
-                }}
-              />
-              
-            <button className="absolute right-4">
-            {loading ? "Subscribing..." : <Image className=" cursor-pointer" src={submit} alt="" width={45.45} height={45.45} />}
-            </button>
-            </div>
+            <form onSubmit={sendMail}>
+              <div className="relative flex items-center">
+                <input
+                  className="px-12 mob:pl-6 mob:pr-16 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px] placeholder:text-[#A5A5A5]  "
+                  type="email"
+                  placeholder="Enter Your Email..."
+                  value={email}
+                  required
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    setEmailError("");
+                  }}
+                />
+
+                <button className="absolute right-4">
+                  {loading ? (
+                    "Subscribing..."
+                  ) : (
+                    <Image
+                      className=" cursor-pointer"
+                      src={submit}
+                      alt=""
+                      width={45.45}
+                      height={45.45}
+                    />
+                  )}
+                </button>
+              </div>
             </form>
           </div>
         </div>
@@ -105,7 +114,8 @@ const Joinemail = () => {
               >
                 <span className="relative z-10 capitalize">
                   {" "}
-                  Follow Select Healing for tips on finding health and balance in body, mind, and life!
+                  Follow Select Healing for tips on finding health and balance
+                  in body, mind, and life!
                 </span>
                 <Image
                   className="absolute  top-[18%] left-[0%]  z-0 mob:hidden"
@@ -117,27 +127,33 @@ const Joinemail = () => {
               </Text>
             </div>
             <div className="relative flex items-center justify-center gap-8">
-            <Image
-            className="cursor-pointer"
-                  src={fb}
-                  alt=""
-                  width={63.94}
-                  height={63.94}
-                />
-            <Image
-            className="cursor-pointer"
+              <Image
+                className="cursor-pointer"
+                src={fb}
+                alt=""
+                width={63.94}
+                height={63.94}
+              />
+
+              <Link href="https://www.instagram.com/select.healing/">
+                <Image
+                  className="cursor-pointer"
                   src={insta}
                   alt=""
                   width={63.94}
                   height={63.94}
                 />
-            <Image
-            className="cursor-pointer"
+              </Link>
+
+              <Link href="https://www.youtube.com/@davidstarbucksmith">
+                <Image
+                  className="cursor-pointer"
                   src={youtube}
                   alt=""
                   width={63.94}
                   height={63.94}
                 />
+              </Link>
             </div>
           </div>
         </div>
