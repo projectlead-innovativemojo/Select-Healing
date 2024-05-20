@@ -118,22 +118,22 @@ function TestimonialSlider() {
                     className=" w-[50px] h-[87px]"
                   />
                 </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
+                <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[450px]">
                   <Text
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
-                    Boost your product and services credibility by adding
-                    testimonials from your clients. People love recommendations
-                    so feedback from others who&apos;ve tried it is invaluable.
+                  David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
+The mind-body connection is everything and David Starbuck Smith is the pain free expert.
                   </Text>
-                  <Image
+                  {/* <Image
                     src={sliderImage}
                     alt="sliderImage"
                     width={69}
                     height={69}
                     className=" pb-[53px] pt-5"
-                  />
+                  /> */}
+                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Nikki N.</Text>
                 </div>
               </div>
             </SwiperSlide>
@@ -151,22 +151,55 @@ function TestimonialSlider() {
                     className=" w-[50px] h-[87px]"
                   />
                 </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
+                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[450px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
-                    Boost your product and service&apos;s credibility by adding
-                    testimonials from your clients. People love recommendations
-                    so feedback from others who&apos;ve tried it is invaluable.
+              This program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. Each class gave me easy action steps I feel I will use for many years to come!
                   </Text>
-                  <Image
+                  {/* <Image
                     src={sliderImage}
                     alt="sliderImage"
                     width={69}
                     height={69}
                     className=" pb-[53px] pt-5"
+                  /> */}
+                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Lisa F</Text>
+
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center  ">
+                <div className="flex gap-[6px] relative justify-center top-10">
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px] "
                   />
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px]"
+                  />
+                </div>
+                <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[450px]">
+                  <Text
+                    as="p"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+                  >
+                  David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
+The mind-body connection is everything and David Starbuck Smith is the pain free expert.
+                  </Text>
+                  {/* <Image
+                    src={sliderImage}
+                    alt="sliderImage"
+                    width={69}
+                    height={69}
+                    className=" pb-[53px] pt-5"
+                  /> */}
+                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Nikki N.</Text>
                 </div>
               </div>
             </SwiperSlide>
@@ -184,22 +217,55 @@ function TestimonialSlider() {
                     className=" w-[50px] h-[87px]"
                   />
                 </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
+                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[450px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
-                    Boost your product and service&apos;s credibility by adding
-                    testimonials from your clients. People love recommendations
-                    so feedback from others who&apos;ve tried it is invaluable.
+              This program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. Each class gave me easy action steps I feel I will use for many years to come!
                   </Text>
-                  <Image
+                  {/* <Image
                     src={sliderImage}
                     alt="sliderImage"
                     width={69}
                     height={69}
                     className=" pb-[53px] pt-5"
+                  /> */}
+                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Lisa F</Text>
+
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center  ">
+                <div className="flex gap-[6px] relative justify-center top-10">
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px] "
                   />
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px]"
+                  />
+                </div>
+                <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[450px]">
+                  <Text
+                    as="p"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+                  >
+                  David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
+The mind-body connection is everything and David Starbuck Smith is the pain free expert.
+                  </Text>
+                  {/* <Image
+                    src={sliderImage}
+                    alt="sliderImage"
+                    width={69}
+                    height={69}
+                    className=" pb-[53px] pt-5"
+                  /> */}
+                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Nikki N.</Text>
                 </div>
               </div>
             </SwiperSlide>
@@ -217,91 +283,26 @@ function TestimonialSlider() {
                     className=" w-[50px] h-[87px]"
                   />
                 </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
+                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[450px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
-                    Boost your product and service&apos;s credibility by adding
-                    testimonials from your clients. People love recommendations
-                    so feedback from others who&apos;ve tried it is invaluable.
+              This program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. Each class gave me easy action steps I feel I will use for many years to come!
                   </Text>
-                  <Image
+                  {/* <Image
                     src={sliderImage}
                     alt="sliderImage"
                     width={69}
                     height={69}
                     className=" pb-[53px] pt-5"
-                  />
+                  /> */}
+                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Lisa F</Text>
+
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center ">
-                <div className="flex gap-[6px] relative justify-center top-10">
-                  <Image
-                    src={qutationsvg}
-                    alt="qutationsvg"
-                    className=" w-[50px] h-[87px] "
-                  />
-                  <Image
-                    src={qutationsvg}
-                    alt="qutationsvg"
-                    className=" w-[50px] h-[87px]"
-                  />
-                </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
-                  <Text
-                    as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
-                  >
-                    Boost your product and service&apos;s credibility by adding
-                    testimonials from your clients. People love recommendations
-                    so feedback from others who&apos;ve tried it is invaluable.
-                  </Text>
-                  <Image
-                    src={sliderImage}
-                    alt="sliderImage"
-                    width={69}
-                    height={69}
-                    className=" pb-[53px] pt-5"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center">
-                <div className="flex gap-[6px] relative justify-center top-10">
-                  <Image
-                    src={qutationsvg}
-                    alt="qutationsvg"
-                    className=" w-[50px] h-[87px] "
-                  />
-                  <Image
-                    src={qutationsvg}
-                    alt="qutationsvg"
-                    className=" w-[50px] h-[87px]"
-                  />
-                </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[333px] flex justify-center items-center px-[10px] flex-col">
-                  <Text
-                    as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
-                  >
-                    Boost your product and service&apos;s credibility by adding
-                    testimonials from your clients. People love recommendations
-                    so feedback from others who&apos;ve tried it is invaluable.
-                  </Text>
-                  <Image
-                    src={sliderImage}
-                    alt="sliderImage"
-                    width={69}
-                    height={69}
-                    className=" pb-[53px] pt-5"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
+           
           </div>
         </Swiper>
         <CustomPagination />
