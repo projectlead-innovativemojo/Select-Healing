@@ -29,27 +29,46 @@ const David = () => {
                 as="h1"
                 className="text-[#E0B15E] text-[40px] my-3 mob:text-center mob:text-[30px] mob:leading-[50px]"
               >
-               I'm David Starbuck Smith 
+                I&apos;m David Starbuck Smith
               </Text>
               <Text
                 as="h1"
                 className="text-[#fff] text-[35px] my-3 mob:text-center mob:text-[30px] mob:leading-[50px]"
               >
-               A holistic life, mind and Body health coach.
+                A holistic life, mind and Body health coach.
               </Text>
               <Text as="p" className="my-3 mob:text-center">
-              Over 50 million people in the United States alone suffer from a chronic pain condition the Western medical model of healthcare hasn't been able to help them solve. The reasons for this include a lack of understanding of the root cause, cookie-cutter approaches to treatment, treating the site of the pain as if it's the cause of the pain, and only treating the physical aspect of the person, leaving out the mental, emotional, and spiritual components of them completely. 
-              </Text>
+  Over 50 million people in the United States alone suffer from a
+  chronic pain condition the Western medical model of healthcare
+  hasn&apos;t been able to help them solve. The reasons for this
+  include a lack of understanding of the root cause, cookie-cutter
+  approaches to treatment, treating the site of the pain as if
+  it&apos;s the cause of the pain, and only treating the physical
+  aspect of the person, leaving out the mental, emotional, and
+  spiritual components of them completely.
+</Text>
 
-              <Text as="p" className="my-6 mob:text-center">
-              At Select Healing, we offer holistic, scientifically proven solutions to your pain while fostering an avenue of awareness and growth. That way, you can return to your life and activities free of pain without expending further time and money on ineffective treatments and solutions that can often leave you more frustrated than when you began.  
-              </Text>
-              <Text as="p" className="my-3 mob:text-center">
-              My Select Healing: Connect and Healing Back Pain online courses will teach you how to discover and solve the root cause of your pain. These courses are self-driven, holistic approaches to relieving chronic pain. They can serve as your lifelong toolkits on a transformative journey to relieving pain and helping you thrive in mind, body, and life.
-              </Text>
+<Text as="p" className="my-6 mob:text-center">
+  At Select Healing, we offer holistic, scientifically proven
+  solutions to your pain while fostering an avenue of awareness
+  and growth. That way, you can return to your life and activities
+  free of pain without expending further time and money on
+  ineffective treatments and solutions that can often leave you
+  more frustrated than when you began.
+</Text>
+
+<Text as="p" className="my-3 mob:text-center">
+  My Select Healing: Connect and Healing Back Pain online courses
+  will teach you how to discover and solve the root cause of your
+  pain. These courses are self-driven, holistic approaches to
+  relieving chronic pain. They can serve as your lifelong toolkits
+  on a transformative journey to relieving pain and helping you
+  thrive in mind, body, and life.
+</Text>
+
 
               <div className="mob:flex mob:justify-center">
-                <Vidpopup/>
+                <Vidpopup />
               </div>
             </div>
           </div>
