@@ -27,28 +27,25 @@ const David = () => {
               </Text>
               <Text
                 as="h1"
-                className="text-[#E0B15E] my-3 mob:text-center mob:text-[40px] mob:leading-[50px]"
+                className="text-[#E0B15E] text-[40px] my-3 mob:text-center mob:text-[30px] mob:leading-[50px]"
               >
-                I&apos;m David <br /> Starbuck Smith.
+               I'm David Starbuck Smith 
+              </Text>
+              <Text
+                as="h1"
+                className="text-[#fff] text-[35px] my-3 mob:text-center mob:text-[30px] mob:leading-[50px]"
+              >
+               A holistic life, mind and Body health coach.
               </Text>
               <Text as="p" className="my-3 mob:text-center">
-                I&rsquo;m a whole-body health coach, author, speaker, athlete,
-                husband, dog dad and outdoor enthusiast. I&rsquo;ve spent my
-                career empowering those living with chronic pain to achieve a
-                pain-free, vibrant life through a restored balance in body, mind
-                and spirit.
+              Over 50 million people in the United States alone suffer from a chronic pain condition the Western medical model of healthcare hasn't been able to help them solve. The reasons for this include a lack of understanding of the root cause, cookie-cutter approaches to treatment, treating the site of the pain as if it's the cause of the pain, and only treating the physical aspect of the person, leaving out the mental, emotional, and spiritual components of them completely. 
               </Text>
 
               <Text as="p" className="my-6 mob:text-center">
-                The courses I teach can help you to eliminate muscle, nerve ​and
-                joint pain, and by connecting you to a deeper inner ​wisdom,
-                that help you to heal past and present emotional ​blockages.
-                Through this process it is possible to achieve a ​pain-free
-                future, with lasting relief and optimal health.
+              At Select Healing, we offer holistic, scientifically proven solutions to your pain while fostering an avenue of awareness and growth. That way, you can return to your life and activities free of pain without expending further time and money on ineffective treatments and solutions that can often leave you more frustrated than when you began.  
               </Text>
               <Text as="p" className="my-3 mob:text-center">
-                I’ve helped thousands of people find the answers to relieving
-                ​their pain, and I’d like to help you too!
+              My Select Healing: Connect and Healing Back Pain online courses will teach you how to discover and solve the root cause of your pain. These courses are self-driven, holistic approaches to relieving chronic pain. They can serve as your lifelong toolkits on a transformative journey to relieving pain and helping you thrive in mind, body, and life.
               </Text>
 
               <div className="mob:flex mob:justify-center">
