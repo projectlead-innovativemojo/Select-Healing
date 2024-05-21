@@ -33,7 +33,7 @@ const David = () => {
               </Text>
               <Text
                 as="h1"
-                className="text-[#fff] text-[35px] my-3 mob:text-center mob:text-[30px] mob:leading-[50px]"
+                className="text-[#fff] text-[30px] my-3 mob:text-center mob:text-[27px] mob:leading-[50px]"
               >
                 A holistic life, mind and Body health coach.
               </Text>
