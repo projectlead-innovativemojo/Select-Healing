@@ -129,7 +129,7 @@ const Joinemail = () => {
             <div className="relative flex items-center justify-center gap-8">
               <Link
                 className="bg-[#041F60] flex justify-center items-center rounded-[50%] w-[55px] h-[55px]"
-                href="#https://www.facebook.com/Select.Healing"
+                href="https://www.facebook.com/Select.Healing"
               >
                 <Image
                   className="cursor-pointer w-[16px]"
