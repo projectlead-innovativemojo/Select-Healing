@@ -48,22 +48,38 @@ const Joinemail = () => {
       setLoading(false);
     }
   };
+  
+//   const [isMounted, setIsMounted] = useState <boolean>(false);
+//   console.log(isMounted)
+// useEffect(() => {
+//     setIsMounted(true);
+//   console.log(isMounted)
 
-  const [isMounted, setIsMounted] = useState <boolean>(false);
-  console.log(isMounted)
-useEffect(() => {
-    setIsMounted(true);
-  console.log(isMounted)
-
-  }, [setIsMounted]);
-  if (!isMounted) return null;
+//   }, [setIsMounted]);
+//   if (!isMounted) return null;
    
+
+  useEffect(() => {
+    // Create a script element
+    const script = document.createElement('script');
+    script.src = 'https://www.selecthealing.com/forms/2148304028/embed.js'; 
+    script.async = true;
+
+    // Append the script to the document head
+    document.head.appendChild(script);
+
+    // Clean up the script when the component unmounts
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
   return (
     <>
       <div className="flex xl:flex-wrap  gap-10 justify-center mb-32 px-5">
         <div className="flex-col min-h-[500.04px] mob:min-h-full mob:py-10 py-2 rounded-[30px] bg-[#041F60] flex items-center justify-center">
           <div className=" max-w-[695.46px] px-12 mob:px-4 overflow-hidden">
-            <div className="flex justify-center mob:mb-8 mb-12">
+            <div className="flex justify-center mob:mb-8 mt-4">
               <Text
                 as="h1"
                 className="max-w-[760.91px] relative text-center text-[#FFFFFF] text-[38px] mob:text-[20px] leading-[62.4px] mob:leading-[35px] mob:max-w-full mob:text-center "
@@ -83,14 +99,25 @@ useEffect(() => {
               </Text>
             </div>
             <form onSubmit={sendMail}>
-            <Script 
-        src="https://www.selecthealing.com/forms/2148304028/embed.js" 
-        strategy="afterInteractive" 
+            <div
+        dangerouslySetInnerHTML={{
+          __html: `
+            <div id="your-html-id">
+            <script src="https://www.selecthealing.com/forms/2148304028/embed.js" ></script>
+            </div>
+          `,
+        }}
       />
             {/* <script src="https://www.selecthealing.com/forms/2148304028/embed.js" ></script> */}
             {/* <Script src="https://www.selecthealing.com/forms/2148304028/embed.js" /> */}
-            {/* <Script src="https://www.selecthealing.com/forms/2148304028/embed.js" /> */}
-              <div className="relative flex items-center">
+          
+            {/* <Script
+    type="text/javascript"
+    src="https://www.selecthealing.com/forms/2148304028/embed.js"
+    strategy="beforeInteractive"
+    defer={false}
+/> */}
+              {/* <div className="relative flex items-center">
                 <input
                   className="px-12 mob:pl-6 mob:pr-16 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px] placeholder:text-[#A5A5A5]  "
                   type="email"
@@ -116,7 +143,7 @@ useEffect(() => {
                     />
                   )}
                 </button>
-              </div>
+              </div> */}
             </form>
           </div>
         </div>
