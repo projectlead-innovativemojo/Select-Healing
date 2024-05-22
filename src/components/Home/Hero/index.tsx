@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useRef } from "react";
 import Image from "next/image";
 
 import bg from "@/public/images/home/herobg.png";
@@ -8,7 +9,13 @@ import Navbar from "@/components/Navbar";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
 
-const Hero = () => {
+interface HeroProps {
+  scrollToWorkshops: () => void;
+}
+const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
+
+  
+
   return (
   <div className="relative min-h-[100vh] mob:min-h-[600px]">
       <Navbar />
@@ -40,8 +47,8 @@ const Hero = () => {
               height={38.1}
             />
           </Text>
-          <div className="mob:flex mob:justify-center">
-            <Button className="max-w-[231.75px] mt-5">Find Out How</Button>
+          <div onClick={scrollToWorkshops} className="mob:flex mob:justify-center">
+            <Button  className="max-w-[231.75px] mt-5">Find Out How</Button>
           </div>
         </div>
       </div>

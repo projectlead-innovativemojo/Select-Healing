@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useRef } from "react";
 import Image from "next/image";
 
 import Text from "../ui/Text";
@@ -11,9 +12,12 @@ import j4 from "@/public/images/home/tn4.png";
 import Button from "../ui/Button";
 
 const Workshops = () => {
+  const targetRef = useRef(null);
+
+
   return (
     <>
-      <div className="flex justify-center mb-16 px-5">
+      <div ref={targetRef} className="flex justify-center mb-16 px-5">
         <Text
           as="h1"
           className="max-w-[919.91px] relative text-center mob:text-[30px] mob:leading-[45px] mob:max-w-full mob:text-center"

@@ -1,7 +1,6 @@
 "use client";
 import { useState, MouseEvent, FormEvent } from "react";
 import Image from "next/image";
-
 import headingbg from "@/public/images/home/headingbg.png";
 import headingbgblue from "@/public/images/home/headingbgblue.png";
 import submit from "@/public/images/home/form.png";
@@ -11,6 +10,7 @@ import youtube from "@/public/icons/XMLID_822_.svg";
 
 import Text from "../ui/Text";
 import Link from "next/link";
+import Script from "next/script";
 
 const Joinemail = () => {
   const [email, setEmail] = useState("");
@@ -48,6 +48,7 @@ const Joinemail = () => {
       setLoading(false);
     }
   };
+   
   return (
     <>
       <div className="flex xl:flex-wrap  gap-10 justify-center mb-32 px-5">
@@ -73,6 +74,9 @@ const Joinemail = () => {
               </Text>
             </div>
             <form onSubmit={sendMail}>
+            {/* <script src="https://www.selecthealing.com/forms/2148304028/embed.js" ></script> */}
+            {/* <Script src="https://www.selecthealing.com/forms/2148304028/embed.js" strategy="lazyOnload" /> */}
+   
               <div className="relative flex items-center">
                 <input
                   className="px-12 mob:pl-6 mob:pr-16 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px] placeholder:text-[#A5A5A5]  "

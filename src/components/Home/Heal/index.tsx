@@ -5,7 +5,11 @@ import heal from "@/public/images/home/heal.png";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
 
-const Heal = () => {
+interface HeroProps {
+  scrollToWorkshops: () => void;
+}
+  const Heal: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
+
   return (
     <>
       <div className="bg-[#E0B15E] py-24 flex justify-center w-full px-5">
@@ -17,18 +21,37 @@ const Heal = () => {
               Learn To Heal <br /> Yourself
               </Text>
               <Text as="p" className="my-3 mob:text-center">
-  The mission of Select Healing is to help people discover how to transform their bodies and lives through scientifically proven exercises, meditations, and self-healing techniques. We believe in empowering you to heal yourself, thereby putting your health back in your hands where it rightly belongs.
-</Text>
-<Text as="p" className="my-6 mob:text-center">
-  Whether you&apos;re seeking solutions for chronic pain, more balance in mind and body, enhanced muscle and joint flexibility, techniques to relieve stress, or simply a pathway to find optimal health, Select Healing is here to guide and support you every step of the way.
-</Text>
-<Text as="p" className="my-3 mob:text-center">
-  We offer courses, retreats, live and recorded &quot;Sunday Stretch&quot; classes, and continued education workshops for health practitioners seeking to add new knowledge and added value to their clients. Simply put, we&apos;re here to help you thrive in body, mind, and life.
+  Over 50 million people in the United States alone suffer from a
+  chronic pain condition the Western medical model of healthcare
+  hasn&apos;t been able to help them solve. The reasons for this
+  include a lack of understanding of the root cause, cookie-cutter
+  approaches to treatment, treating the site of the pain as if
+  it&apos;s the cause of the pain, and only treating the physical
+  aspect of the person, leaving out the mental, emotional, and
+  spiritual components of them completely.
 </Text>
 
-              <div className="mob:flex mob:justify-center">
+<Text as="p" className="my-6 mob:text-center">
+  At Select Healing, we offer holistic, scientifically proven
+  solutions to your pain while fostering an avenue of awareness
+  and growth. That way, you can return to your life and activities
+  free of pain without expending further time and money on
+  ineffective treatments and solutions that can often leave you
+  more frustrated than when you began.
+</Text>
+
+<Text as="p" className="my-3 mob:text-center">
+  My Select Healing: Connect and Healing Back Pain online courses
+  will teach you how to discover and solve the root cause of your
+  pain. These courses are self-driven, holistic approaches to
+  relieving chronic pain. They can serve as your lifelong toolkits
+  on a transformative journey to relieving pain and helping you
+  thrive in mind, body, and life.
+</Text>
+
+              <div onClick={scrollToWorkshops} className="mob:flex mob:justify-center">
                 <Button className="max-w-[347px] rounded-[32.83px] mt-5 bg-[#041F60] border-[#041F60] ">
-                Preview Course Material
+                Preview Courses
                 </Button>
               </div>
             </div>
