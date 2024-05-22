@@ -10,6 +10,7 @@ import j2 from "@/public/images/home/tn2.png";
 import j3 from "@/public/images/home/tn3.png";
 import j4 from "@/public/images/home/tn4.png";
 import Button from "../ui/Button";
+import Slider from "./Slider";
 
 const Workshops = () => {
   const targetRef = useRef(null);
@@ -36,9 +37,9 @@ const Workshops = () => {
         </Text>
       </div>
 
-      <div className="flex justify-center px-5">
+      {/* <div className="flex justify-center px-5">
      
-       {/* <div className="mb-10">
+       <div className="mb-10">
        <Content
           heading="Creating Postural Therapy Routines"
           text="  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -63,10 +64,9 @@ const Workshops = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua."
           imgpath={shoulder}
         />
-       </div> */}
+       </div>
 
-<div className="w-full flex flex-wrap  justify-between mb-28 max-w-[1300px] lg:justify-center lg:gap-14">
-            {/* 1 */}
+     <div className="w-full flex flex-wrap  justify-between mb-28 max-w-[1300px] lg:justify-center lg:gap-14">
           <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j1} alt="" width={427.09} height={289.44} />
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
@@ -79,7 +79,6 @@ const Workshops = () => {
             </div>
           </div>
 
-          {/* 2 */}
           <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j2} alt="" width={427.09} height={289.44} />
           
@@ -93,7 +92,6 @@ const Workshops = () => {
             </div>
           </div>
 
-          {/* 3 */}
           <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j3} alt="" width={427.09} height={289.44} />
            
@@ -107,7 +105,6 @@ const Workshops = () => {
             </div>
           </div>
 
-          {/* 4 */}
           <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j4} alt="" width={427.09} height={289.44} />
            
@@ -122,7 +119,8 @@ const Workshops = () => {
           </div>
 
         </div>
-      </div>
+      </div> */}
+      <Slider/>
     </>
   );
 };

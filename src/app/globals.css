@@ -7,3 +7,8 @@
   height: 15px !important;
   background-color: #041f60 !important;
 }
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center !important;
+}

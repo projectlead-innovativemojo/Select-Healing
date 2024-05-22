@@ -14,6 +14,16 @@ const David = () => {
           {/* left */}
           <div className="lg:w-full lg:flex lg:justify-center  ">
             <Image src={david} alt="" width={636.11} height={677.07} />
+            {/* <video
+              className="cursor-pointer rounded-[30px] w-full max-w-[636.11px] mt-4"
+              src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
+              poster="/images/home/youcan.png"
+              width={636.11}
+              height={677.07}
+              loop
+              playsInline
+              controls
+            ></video> */}
           </div>
 
           {/* right */}
@@ -37,8 +47,6 @@ const David = () => {
               >
                 a holistic life, mind and body health coach.
               </Text>
-      
-
 
               {/* <div className="mob:flex mob:justify-center">
                 <Vidpopup />

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import heal from "@/public/images/home/heal.png";
+import heal from "@/public/images/home/healnew.png";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
 

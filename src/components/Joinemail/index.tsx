@@ -1,5 +1,5 @@
 "use client";
-import { useState, MouseEvent, FormEvent } from "react";
+import { useState, MouseEvent, FormEvent, useEffect } from "react";
 import Image from "next/image";
 import headingbg from "@/public/images/home/headingbg.png";
 import headingbgblue from "@/public/images/home/headingbgblue.png";
@@ -48,6 +48,15 @@ const Joinemail = () => {
       setLoading(false);
     }
   };
+
+  const [isMounted, setIsMounted] = useState <boolean>(false);
+  console.log(isMounted)
+useEffect(() => {
+    setIsMounted(true);
+  console.log(isMounted)
+
+  }, [setIsMounted]);
+  if (!isMounted) return null;
    
   return (
     <>
@@ -74,9 +83,13 @@ const Joinemail = () => {
               </Text>
             </div>
             <form onSubmit={sendMail}>
+            <Script 
+        src="https://www.selecthealing.com/forms/2148304028/embed.js" 
+        strategy="afterInteractive" 
+      />
             {/* <script src="https://www.selecthealing.com/forms/2148304028/embed.js" ></script> */}
-            {/* <Script src="https://www.selecthealing.com/forms/2148304028/embed.js" strategy="lazyOnload" /> */}
-   
+            {/* <Script src="https://www.selecthealing.com/forms/2148304028/embed.js" /> */}
+            {/* <Script src="https://www.selecthealing.com/forms/2148304028/embed.js" /> */}
               <div className="relative flex items-center">
                 <input
                   className="px-12 mob:pl-6 mob:pr-16 w-full h-[65.66px] bg-[#FFFFFF] outline-none rounded-[32.83px] placeholder:text-[#A5A5A5]  "
