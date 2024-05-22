@@ -18,36 +18,36 @@ const Joinemail = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [emailError, setEmailError] = useState<string>("");
 
-  const sendMail = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setLoading(true);
-    try {
-      const response = await fetch("/api/sendSubscribe", {
-        method: "POST",
-        headers: {
-          "content-type": "application/json",
-        },
-        body: JSON.stringify({
-          email,
-        }),
-      });
+  // const sendMail = async (e: FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   try {
+  //     const response = await fetch("/api/sendSubscribe", {
+  //       method: "POST",
+  //       headers: {
+  //         "content-type": "application/json",
+  //       },
+  //       body: JSON.stringify({
+  //         email,
+  //       }),
+  //     });
 
-      const data = await response.json();
+  //     const data = await response.json();
 
-      if (response.ok) {
-        setSuccessMessage("Subscribed Successfully!");
-        alert("Subscribed successfully!");
-        setEmail("");
-      } else {
-        throw new Error(data.message || "Failed to send email");
-      }
-    } catch (error) {
-      console.error("Error sending email:", error);
-      alert("Failed to send email. Please try again later.");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     if (response.ok) {
+  //       setSuccessMessage("Subscribed Successfully!");
+  //       alert("Subscribed successfully!");
+  //       setEmail("");
+  //     } else {
+  //       throw new Error(data.message || "Failed to send email");
+  //     }
+  //   } catch (error) {
+  //     console.error("Error sending email:", error);
+  //     alert("Failed to send email. Please try again later.");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
   
 //   const [isMounted, setIsMounted] = useState <boolean>(false);
 //   console.log(isMounted)
@@ -98,7 +98,7 @@ const Joinemail = () => {
                 />
               </Text>
             </div>
-            <form onSubmit={sendMail}>
+            {/* <form > */}
             <div
         dangerouslySetInnerHTML={{
           __html: `
@@ -144,7 +144,7 @@ const Joinemail = () => {
                   )}
                 </button>
               </div> */}
-            </form>
+            {/* </form> */}
           </div>
         </div>
 

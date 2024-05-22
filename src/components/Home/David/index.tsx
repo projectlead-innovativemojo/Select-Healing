@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import david from "@/public/images/home/david.png";
+import david from "@/public/images/home/davidd.png";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
 import Vidpopup from "./Vidpopup";
