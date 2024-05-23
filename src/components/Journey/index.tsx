@@ -11,8 +11,26 @@ import j3 from "@/public/images/home/connect.png";
 
 const Journey = () => {
   return (
+
+    <>
+     <div className=" flex justify-center -mt-16">
+     <video
+      className="cursor-pointer max-w-[50%] rounded-[30px] w-full"
+      src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
+      poster="/images/home/youcan.png" 
+      width={1607.34}
+      height={1182.23}
+      loop
+      playsInline
+      controls
+    >
+     
+    </video>
+     </div>
     <div className="flex justify-center">
-      <div className="py-32 px-5 max-w-[1440.36px]">
+      <div className="pb-32 pt-10 px-5 max-w-[1440.36px]">
+
+        
         <div className="flex justify-center">
           <Text
             as="h1"
@@ -93,6 +111,8 @@ const Journey = () => {
         </div>
       </div>
     </div>
+    </>
+    
   );
 };
 

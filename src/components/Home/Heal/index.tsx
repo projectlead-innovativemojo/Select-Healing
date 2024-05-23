@@ -13,7 +13,7 @@ interface HeroProps {
   return (
     <>
       <div className="bg-[#E0B15E] py-24 flex justify-center w-full px-5">
-        <div className="max-w-[1400.7px]  w-full flex lg:block gap-[50px] pb-32">
+        <div className="max-w-[1400.7px]  w-full flex lg:block gap-[50px] ">
           {/* left */}
           <div className="max-w-[740.59px] w-full lg:flex lg:justify-center lg:max-w-full ">
             <div className="w-full max-w-[750.59px]">

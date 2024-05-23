@@ -14,7 +14,7 @@ import Content from "./Content";
 const Youcan = () => {
   return (
     <>
-      <div className="flex justify-center w-full -mt-32 pb-32">
+      <div className="flex justify-center w-full mt-16 pb-32">
         <div className="max-w-[1440px] w-full px-5">
           {/* <Image
             className="cursor-pointer"
@@ -23,7 +23,7 @@ const Youcan = () => {
             width={1607.34}
             height={1182.23}
           /> */}
-      <video
+      {/* <video
       className="cursor-pointer rounded-[30px] w-full"
       src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
       poster="/images/home/youcan.png" 
@@ -34,7 +34,7 @@ const Youcan = () => {
       controls
     >
      
-    </video>
+    </video> */}
           <div className="flex justify-center my-12">
             <Text
               as="h1"
