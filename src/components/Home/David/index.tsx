@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import david from "@/public/images/home/davidd.png";
+import david from "@/public/images/home/davidhd.png";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
 import Vidpopup from "./Vidpopup";
@@ -13,7 +13,7 @@ const David = () => {
         <div className="max-w-[1400.7px] pb-12  w-full flex items-center lg:block gap-[50px]">
           {/* left */}
           <div className="lg:w-full lg:flex lg:justify-center  ">
-            <Image src={david} alt="" width={636.11} height={677.07} />
+            <Image className="rounded-[15px]" src={david} alt="" width={636.11} height={677.07} />
             {/* <video
               className="cursor-pointer rounded-[30px] w-full max-w-[636.11px] mt-4"
               src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"

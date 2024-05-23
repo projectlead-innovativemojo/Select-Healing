@@ -15,7 +15,7 @@ const Journey = () => {
     <>
      <div className=" flex justify-center -mt-16">
      <video
-      className="cursor-pointer max-w-[50%] rounded-[30px] w-full"
+      className="cursor-pointer max-w-[58%] rounded-[30px] w-full mob:max-w-[90%]"
       src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
       poster="/images/home/youcan.png" 
       width={1607.34}
