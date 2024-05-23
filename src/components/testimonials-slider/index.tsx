@@ -252,7 +252,7 @@ function TestimonialSlider() {
   };
 
   const CustomPagination = () => (
-    <div className="custom-pagination flex justify-center items-center mt-8 "></div>
+    <div className="custom-pagination flex justify-center items-center  "></div>
   );
 
   return (

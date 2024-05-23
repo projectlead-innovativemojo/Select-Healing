@@ -12,4 +12,6 @@
   display: flex !important;
   justify-content: center !important;
 }
-
+.swiper-wrapper{
+  padding-bottom: 70px;
+}

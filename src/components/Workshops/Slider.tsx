@@ -49,20 +49,20 @@ const Slider = () => {
         // direction="vertical"
         // onSwiper={(swiper) => console.log(swiper)}
         // onSlideChange={() => console.log("slide change")}
-        // pagination={{ clickable: true }}
+        pagination={{ clickable: true }}
         breakpoints={{
           768: {
             slidesPerView: 1,
           },
 
-          1300: {
+          1200: {
             slidesPerView: 4,
           },
         }}
         // mousewheel={{ invert: true }}
       >
-        <SwiperSlide >
            {/* 1 */}
+        <SwiperSlide >
            <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j1} alt="" width={427.09} height={289.44} />
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
@@ -122,8 +122,23 @@ const Slider = () => {
             </div>
           </div>
         </SwiperSlide>
-          {/* 5 */}
-        {/* <SwiperSlide >
+           {/* 1 */}
+        <SwiperSlide >
+           <div className="flex-col w-full max-w-[280.09px]">
+            <Image src={j1} alt="" width={427.09} height={289.44} />
+            <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
+            Creating Postural Therapy Routines
+            </Text>
+            <div className="flex justify-center ">
+              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
+                Enroll Now
+              </Button>
+            </div>
+          </div>
+
+        </SwiperSlide>
+          {/* 2 */}
+        <SwiperSlide >
           <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j2} alt="" width={427.09} height={289.44} />
           
@@ -136,8 +151,38 @@ const Slider = () => {
               </Button>
             </div>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
+          {/* 3 */}
+        <SwiperSlide >
+           <div className="flex-col w-full max-w-[280.09px]">
+            <Image src={j3} alt="" width={427.09} height={289.44} />
+           
+            <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
+            Discovering the <br /> Postural Nuances
+            </Text>
+            <div className="flex justify-center ">
+              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
+                Enroll Now
+              </Button>
+            </div>
+          </div>
 
+        </SwiperSlide>
+          {/* 4 */}
+        <SwiperSlide >
+        <div className="flex-col w-full max-w-[280.09px]">
+            <Image src={j4} alt="" width={427.09} height={289.44} />
+           
+            <Text as="h2" className="text-center text-[24px] leading-[31.2px] my-[37px]">
+            Shoulder Girdle
+            </Text>
+            <div className="flex justify-center ">
+              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
+                Enroll Now
+              </Button>
+            </div>
+          </div>
+        </SwiperSlide>
 
       </Swiper>
     </div>
