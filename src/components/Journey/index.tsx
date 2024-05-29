@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import Image from "next/image";
 
 import Text from "../ui/Text";
@@ -8,8 +8,13 @@ import headingbg from "@/public/images/home/headingbg.png";
 import j1 from "@/public/images/home/backpain.png";
 import j2 from "@/public/images/home/sindaystretch.png";
 import j3 from "@/public/images/home/connect.png";
+import Link from "next/link";
+interface JourneyProps {
+  refvalue: React.RefObject<HTMLDivElement>;
+}
 
-const Journey = () => {
+const Journey: FC<JourneyProps> = ({ refvalue }) => {
+
   return (
 
     <>
@@ -27,7 +32,7 @@ const Journey = () => {
      
     </video>
      </div>
-    <div className="flex justify-center">
+    <div className="flex justify-center" ref={refvalue}>
       <div className="pb-32 pt-10 px-5 max-w-[1440.36px]">
 
         
@@ -63,11 +68,11 @@ const Journey = () => {
             <Text as="h2" className="text-center">
               Back Pain
             </Text>
-            <div className="flex justify-center mt-8">
+            <Link href="https://www.selecthealing.com/healing-back-pain-5045b7e2-262c-428c-a825-42d1048fba17" className="flex justify-center mt-8">
               <Button className="max-w-[235.55px] h-[65.66px]">
                 Coming Soon
               </Button>
-            </div>
+            </Link>
           </div>
 
           {/* 2 */}
@@ -82,11 +87,11 @@ const Journey = () => {
             <Text as="h2" className="text-center">
             Sunday Stretch 
             </Text>
-            <div className="flex justify-center mt-8">
+            <Link href="https://www.selecthealing.com/offers/GWw5J6iS/checkout" className="flex justify-center mt-8">
               <Button className="max-w-[235.55px] h-[65.66px]">
               Coming Soon
               </Button>
-            </div>
+            </Link>
           </div>
 
           {/* 3 */}

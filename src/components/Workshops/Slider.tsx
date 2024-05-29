@@ -6,7 +6,7 @@ import Image from "next/image";
 
 
 import headingbg from "@/public/images/home/headingbg.png";
-import j1 from "@/public/images/home/tn1.png";
+import j1 from "@/public/images/home/kamar.png";
 import j2 from "@/public/images/home/tn2.png";
 import j3 from "@/public/images/home/tn3.png";
 import j4 from "@/public/images/home/tn4.png";
@@ -25,6 +25,7 @@ import {
   Mousewheel,
 } from "swiper/modules";
 import Text from "../ui/Text";
+import Link from "next/link";
 
 
 const Slider = () => {
@@ -66,13 +67,13 @@ const Slider = () => {
            <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j1} alt="" width={427.09} height={289.44} />
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
-            Creating Postural Therapy Routines
+            Discussing the Degenerative Hip
             </Text>
-            <div className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/wxDLS9YR" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
-            </div>
+              </Link>
           </div>
 
         </SwiperSlide>
@@ -81,14 +82,14 @@ const Slider = () => {
           <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j2} alt="" width={427.09} height={289.44} />
           
-            <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-[37px]">
-            Exercise Dissection
+            <Text as="h2" className="text-center leading-[31.2px] text-[24px] pb-[1px] my-4">
+            Exercise Dissection Workshop
             </Text>
-            <div className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/rpzxMFnZ" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
           {/* 3 */}
@@ -96,14 +97,14 @@ const Slider = () => {
            <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j3} alt="" width={427.09} height={289.44} />
            
-            <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
+            <Text as="h2" className="text-center leading-[31.2px] text-[24px] pb-[1px] my-4">
             Discovering the <br /> Postural Nuances
             </Text>
-            <div className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/i6JXiBji" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
-            </div>
+            </Link>
           </div>
 
         </SwiperSlide>
@@ -112,28 +113,29 @@ const Slider = () => {
         <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j4} alt="" width={427.09} height={289.44} />
            
-            <Text as="h2" className="text-center text-[24px] leading-[31.2px] my-[37px]">
-            Shoulder Girdle
+            <Text as="h2" className="text-center text-[24px] leading-[31.2px] pb-[1px] my-5">
+            Examining the Shoulder Girdle
             </Text>
-            <div className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/uvtPUKaL" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
+     
            {/* 1 */}
         <SwiperSlide >
            <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j1} alt="" width={427.09} height={289.44} />
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
-            Creating Postural Therapy Routines
+            Discussing the Degenerative Hip
             </Text>
-            <div className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/wxDLS9YR" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
-            </div>
+              </Link>
           </div>
 
         </SwiperSlide>
@@ -141,15 +143,14 @@ const Slider = () => {
         <SwiperSlide >
           <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j2} alt="" width={427.09} height={289.44} />
-          
-            <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-[37px]">
-            Exercise Dissection
+            <Text as="h2" className="text-center leading-[31.2px] text-[24px] pb-[1px] my-4">
+            Exercise Dissection Workshop
             </Text>
-            <div className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/rpzxMFnZ" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
           {/* 3 */}
@@ -157,14 +158,14 @@ const Slider = () => {
            <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j3} alt="" width={427.09} height={289.44} />
            
-            <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
+            <Text as="h2" className="text-center leading-[31.2px] text-[24px] pb-[1px] my-4">
             Discovering the <br /> Postural Nuances
             </Text>
-            <div className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/i6JXiBji" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
-            </div>
+            </Link>
           </div>
 
         </SwiperSlide>
@@ -173,17 +174,17 @@ const Slider = () => {
         <div className="flex-col w-full max-w-[280.09px]">
             <Image src={j4} alt="" width={427.09} height={289.44} />
            
-            <Text as="h2" className="text-center text-[24px] leading-[31.2px] my-[37px]">
-            Shoulder Girdle
+            <Text as="h2" className="text-center text-[24px] leading-[31.2px] pb-[1px] my-5">
+            Examining the Shoulder Girdle
             </Text>
-            <div className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/uvtPUKaL" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
                 Enroll Now
               </Button>
-            </div>
+            </Link>
           </div>
         </SwiperSlide>
-
+     
       </Swiper>
     </div>
     </div>
