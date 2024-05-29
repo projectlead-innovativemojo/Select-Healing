@@ -41,7 +41,7 @@ interface HeroProps {
 </Text>
 
 <Text as="p" className="my-3 mob:text-center">
-  My Select Healing: Connect and Healing Back Pain online courses
+  My <span style={{fontStyle:"italic"}}> Select Healing: Connect and Healing Back Pain  </span> online courses
   will teach you how to discover and solve the root cause of your
   pain. These courses are self-driven, holistic approaches to
   relieving chronic pain. They can serve as your lifelong toolkits

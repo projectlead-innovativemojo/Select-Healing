@@ -124,67 +124,7 @@ const Slider = () => {
           </div>
         </SwiperSlide>
      
-           {/* 1 */}
-        <SwiperSlide >
-           <div className="flex-col w-full max-w-[280.09px]">
-            <Image src={j1} alt="" width={427.09} height={289.44} />
-            <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
-            Discussing the Degenerative Hip
-            </Text>
-            <Link href="https://www.selecthealing.com/offers/wxDLS9YR" className="flex justify-center ">
-              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
-                Enroll Now
-              </Button>
-              </Link>
-          </div>
-
-        </SwiperSlide>
-          {/* 2 */}
-        <SwiperSlide >
-          <div className="flex-col w-full max-w-[280.09px]">
-            <Image src={j2} alt="" width={427.09} height={289.44} />
-            <Text as="h2" className="text-center leading-[31.2px] text-[24px] pb-[1px] my-4">
-            Exercise Dissection Workshop
-            </Text>
-            <Link href="https://www.selecthealing.com/offers/rpzxMFnZ" className="flex justify-center ">
-              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
-                Enroll Now
-              </Button>
-            </Link>
-          </div>
-        </SwiperSlide>
-          {/* 3 */}
-        <SwiperSlide >
-           <div className="flex-col w-full max-w-[280.09px]">
-            <Image src={j3} alt="" width={427.09} height={289.44} />
-           
-            <Text as="h2" className="text-center leading-[31.2px] text-[24px] pb-[1px] my-4">
-            Discovering the <br /> Postural Nuances
-            </Text>
-            <Link href="https://www.selecthealing.com/offers/i6JXiBji" className="flex justify-center ">
-              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
-                Enroll Now
-              </Button>
-            </Link>
-          </div>
-
-        </SwiperSlide>
-          {/* 4 */}
-        <SwiperSlide >
-        <div className="flex-col w-full max-w-[280.09px]">
-            <Image src={j4} alt="" width={427.09} height={289.44} />
-           
-            <Text as="h2" className="text-center text-[24px] leading-[31.2px] pb-[1px] my-5">
-            Examining the Shoulder Girdle
-            </Text>
-            <Link href="https://www.selecthealing.com/offers/uvtPUKaL" className="flex justify-center ">
-              <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
-                Enroll Now
-              </Button>
-            </Link>
-          </div>
-        </SwiperSlide>
-     
+        
       </Swiper>
     </div>
     </div>
