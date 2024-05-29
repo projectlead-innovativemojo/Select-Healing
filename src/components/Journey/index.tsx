@@ -70,7 +70,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
             </Text>
             <Link href="https://www.selecthealing.com/healing-back-pain-5045b7e2-262c-428c-a825-42d1048fba17" className="flex justify-center mt-8">
               <Button className="max-w-[235.55px] h-[65.66px]">
-                Coming Soon
+              Enroll Now
               </Button>
             </Link>
           </div>
@@ -89,7 +89,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
             </Text>
             <Link href="https://www.selecthealing.com/offers/GWw5J6iS/checkout" className="flex justify-center mt-8">
               <Button className="max-w-[235.55px] h-[65.66px]">
-              Coming Soon
+              Enroll Now
               </Button>
             </Link>
           </div>
