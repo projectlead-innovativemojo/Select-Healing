@@ -47,12 +47,12 @@ const David = () => {
               >
                 I&apos;m David Starbuck Smith
               </Text>
-              <Text
+              {/* <Text
   as="p"
   className="text-[#fff]  mb-3 mob:text-center mob:leading-[50px]"
 >
   a holistic life, mind and body health coach.
-</Text>
+</Text> */}
 
 <Text as="p" className="my-3 mob:text-center">
   I&apos;m a holistic life, mind, and body health coach. I&apos;m also an
