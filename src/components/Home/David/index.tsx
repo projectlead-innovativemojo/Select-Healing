@@ -39,7 +39,7 @@ const David = () => {
                 as="p"
                 className="text-[#FFFFFF] text-[32px] font-poppins leading-[41.6px] mob:text-center"
               >
-                Hi, There.
+                Hi There
               </Text>
               <Text
                 as="h1"
