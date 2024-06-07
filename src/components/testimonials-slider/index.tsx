@@ -341,10 +341,10 @@ function TestimonialSlider() {
                     className=" w-[50px] h-[87px]"
                   />
                 </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[450px]">
+                <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[495px]">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+                    className="text-[#041F60] text-[19px] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
                   David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
 The mind-body connection is everything and David Starbuck Smith is the pain free expert.
@@ -374,7 +374,35 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                     className=" w-[50px] h-[87px]"
                   />
                 </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[450px] flex justify-center items-center px-[10px] flex-col">
+                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
+                <Text
+        as="p"
+        className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto capitalize"
+      >
+        When you are in pain you get to a place where things aren&apos;t working and you are scared. You will do whatever it takes to get out of that pain. But this felt different than anything else I&apos;ve tried before. This gave me my life back in my 30s - I went from not being able to do anything physical to surfing and cycling...
+      </Text>
+      <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">
+        Katie&nbsp;S
+      </Text>
+                </div>
+              </div>
+            </SwiperSlide>
+           
+            <SwiperSlide>
+              <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center ">
+                <div className="flex gap-[6px] relative justify-center top-10">
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px] "
+                  />
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px]"
+                  />
+                </div>
+                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
@@ -393,6 +421,7 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                 </div>
               </div>
             </SwiperSlide>
+          
             <SwiperSlide>
               <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center  ">
                 <div className="flex gap-[6px] relative justify-center top-10">
@@ -407,10 +436,10 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                     className=" w-[50px] h-[87px]"
                   />
                 </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[450px]">
+                <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[495px]">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+                    className="text-[#041F60] text-[19px] pt-[100px] text-center max-w-[368px] m-auto capitalize"
                   >
                   David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
 The mind-body connection is everything and David Starbuck Smith is the pain free expert.
@@ -440,7 +469,35 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                     className=" w-[50px] h-[87px]"
                   />
                 </div>
-                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[450px] flex justify-center items-center px-[10px] flex-col">
+                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
+                <Text
+        as="p"
+        className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto capitalize"
+      >
+        When you are in pain you get to a place where things aren&apos;t working and you are scared. You will do whatever it takes to get out of that pain. But this felt different than anything else I&apos;ve tried before. This gave me my life back in my 30s - I went from not being able to do anything physical to surfing and cycling...
+      </Text>
+      <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">
+        Katie&nbsp;S
+      </Text>
+                </div>
+              </div>
+            </SwiperSlide>
+           
+            <SwiperSlide>
+              <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center ">
+                <div className="flex gap-[6px] relative justify-center top-10">
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px] "
+                  />
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px]"
+                  />
+                </div>
+                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
