@@ -21,6 +21,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
       <Navbar />
       <div className=" w-full flex items-center  min-h-[70vh] mob:min-h-[500px]">
       <Image
+      
         className="absolute object-cover bg-center w-full  h-full top-0 z-0"
         src={bg}
         alt=""
@@ -37,7 +38,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
           >
             <span className="relative z-10 ]">
               {" "}
-              Start Today, ​Transform ​Your Body ​And Your Life.
+              Start Today, ​Transform ​Your Health And Your Life.
             </span>
             <Image
               className="absolute  top-[53%] -left-5 mob:left-0 z-0"

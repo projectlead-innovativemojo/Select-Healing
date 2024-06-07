@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import heal from "@/public/images/home/healnew.png";
+import heal from "@/public/images/home/Two-people.png";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
 
@@ -60,7 +60,7 @@ interface HeroProps {
           {/* right */}
 
           <div className="lg:w-full flex justify-center items-center lg:mt-10">
-            <Image src={heal} alt="" width={636.11} height={677.07} />
+            <Image className="rounded-[15px]" src={heal} alt="" width={636.11} height={677.07} />
           </div>
         </div>
       </div>
