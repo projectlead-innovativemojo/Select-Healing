@@ -48,8 +48,8 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
               height={38.1}
             />
           </Text>
-          <div onClick={scrollToWorkshops} className="mob:flex mob:justify-center">
-            <Button  className="max-w-[231.75px] mt-5">Find Out How</Button>
+          <div className="mob:flex mob:justify-center">
+            <button  onClick={scrollToWorkshops} className="max-w-[231.75px] mt-5 w-full h-[65.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]">Find Out How</button>
           </div>
         </div>
       </div>
