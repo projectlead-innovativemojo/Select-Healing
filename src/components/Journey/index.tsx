@@ -107,9 +107,12 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
             Connect
             </Text>
             <div className="flex justify-center mt-8">
-              <Button className="max-w-[235.55px] h-[65.66px]">
-                Enroll Now
+            <Link href="https://www.selecthealing.com/connect" className="flex justify-center max-w-[235.55px] h-[65.66px] w-full">
+              <Button className="max-w-[235.55px] h-[65.66px] w-full">
+              Enroll Now
               </Button>
+            </Link>
+           
             </div>
           </div>
 
