@@ -13,10 +13,15 @@ interface HeroProps {
   scrollToWorkshops: () => void;
 }
 const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
+  const handleClick = () => {
+    if (window.innerWidth <= 768) { // Adjust this value based on your mobile breakpoint
+      scrollToWorkshops();
+    }
+  };
   return (
     <div className="relative min-h-[100vh] mob:min-h-[600px]">
       <Navbar />
-      <div className=" w-full flex items-center  min-h-[70vh] mob:min-h-[500px]">
+      <div onClick={handleClick} className=" w-full flex items-center  min-h-[70vh] mob:min-h-[500px]">
         <Image
           className="absolute object-cover bg-center w-full  h-full top-0 z-0"
           src={bg}
