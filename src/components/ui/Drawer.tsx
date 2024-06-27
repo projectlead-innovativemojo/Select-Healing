@@ -1,6 +1,5 @@
 "use client";
 import { useCallback, useEffect } from "react";
-import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 
 // import Text from "@/ui/Text";
@@ -63,7 +62,7 @@ const Drawer: React.FC<DrawerProps> = ({
       )}
       <div
         className={twMerge(
-          `fixed right-0 top-0 z-[999] h-full   w-[705px] ] mob:w-full transform overflow-x-hidden text-white  drawerbg transition-transform duration-300 bg-[#21201E]/90 ease-in-out ${
+          `fixed right-0 top-0 z-[999] h-full   w-[705px] ] mob:w-full transform overflow-x-hidden text-white  drawerbg transition-transform duration-300 bg-[#00297A]/90 ease-in-out ${
             isOpen
               ? "transition-transform duration-700 ease-in-out translate-x-0"
               : "transition-transform duration-700 ease-in-out  translate-x-full"
@@ -76,7 +75,7 @@ const Drawer: React.FC<DrawerProps> = ({
         }}
       >
         {/* Drawer Close Button */}
-        <div className="mt-[20px]  px-[60px] mob:px-[25px] flex justify-end items-center bg-[#21201E]">
+        <div className="mt-[20px]  px-[60px] mob:px-[25px] flex justify-end items-center ">
           {/* <Text className="text-[#000] text-[20px] font-organetto font-extrabold leading-[60px] uppercase ">
             {drawerTitle ? drawerTitle : "Drawer"}
           </Text> */}
