@@ -16,7 +16,7 @@ const libre = Libre_Baskerville({
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "700"], // specify the weights you need
+  weight: ["400","500","600","700"], // specify the weights you need
   style: ["normal", "italic"],
   variable: "--font-poppins",
 });
