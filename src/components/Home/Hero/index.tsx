@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
         />
 
         {/* content */}
-        <div className="relative z-10 flex justify-center items-center w-full pt-[50px] pb-[70px] mob:px-5 ">
+        <div className="relative z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5 ">
           <div className="max-w-[906.89px] w-full">
             <Text
               as="h1"
