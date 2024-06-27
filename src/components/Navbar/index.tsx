@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-center relative z-50 pb-36 mob:pb-0'>
-        <div className="max-w-[1440px] w-full pl-[5%] pt-[30px] flex justify-between items-center  mob:pl-0 mob:pr-5 ">
+        <div className="max-w-[1440px] w-full px-[5%] pt-[30px] flex justify-between items-center  mob:pl-0 mob:pr-5 ">
             <Image className='' src={logo} alt="" width={300.19} height={159.77} />
 
            {/* menu */}
