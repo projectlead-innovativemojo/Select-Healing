@@ -15,7 +15,7 @@ const Content: React.FC<ContentProps> = ({ text, imgpath }) => {
       <div className="">
         <div className="flex justify-center">
           <Image
-            className="cursor-pointer"
+            className=""
             src={imgpath}
             alt=""
             width={123.95}
