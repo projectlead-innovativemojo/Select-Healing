@@ -38,23 +38,26 @@ const Navbar = () => {
             <Image className='' src={logo} alt="" width={300.19} height={159.77} />
 
            {/* menu */}
-              <ul className='flex gap-10 tab:hidden'>
+              <ul className='flex gap-10 xl:hidden'>
                 <Link href='https://www.selecthealing.com/store' >
-                <li className='font-semibold  text-[24px] leading-[83.2px] text-[#041F60] font-poppins'>Store</li>
+                <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Store</li>
                 </Link>
                 <Link href='https://www.selecthealing.com/login' >
-                <li className='font-semibold  text-[24px] leading-[83.2px] text-[#041F60] font-poppins'>My Library</li>
+                <li className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>My Library</li>
                 </Link>
                 <Link href='https://www.selecthealing.com/about' >
-                <li className='font-semibold  text-[24px] leading-[83.2px] text-[#041F60] font-poppins'>About</li>
+                <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>About</li>
                 </Link>
                 <Link href='https://www.selecthealing.com/contact' >
-                <li className='font-semibold  text-[24px] leading-[83.2px] text-[#041F60] font-poppins'>Contact</li>
+                <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Contact</li>
+                </Link>
+                <Link href='https://www.selecthealing.com/events' >
+                <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Upcoming Retreats</li>
                 </Link>
               </ul>
 
               {/* mobile menu */}
-              <div className="hidden tab:block ">
+              <div className="hidden xl:block ">
                 <div
                   className="relative cursor-pointer flex "
                   onClick={onOpen}
