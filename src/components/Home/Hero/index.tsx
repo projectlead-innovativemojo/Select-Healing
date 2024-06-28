@@ -42,9 +42,11 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
 
      
         <div 
-         className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5 ${
-          showFirstText ? 'fade-in' : 'fade-out'
-        }`}
+         className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5 cursor-pointer
+           ${
+          showFirstText ? 'fade-in z-30' : 'fade-out z-10'
+        }
+        `}
        >
           <div className="max-w-[906.89px] w-full">
             <Text
@@ -79,7 +81,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
 
         <div  
          className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5   ${
-          showFirstText ? 'fade-out' : 'fade-in'
+          showFirstText ? 'fade-out z-10' : 'fade-in z-30'
         }`}>
           <div className="max-w-[906.89px] w-full">
             <Text
