@@ -29,3 +29,33 @@
   }
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
+
+.fade-out {
+  animation: fadeOut 1s forwards;
+}
+
+.text-container {
+  position: relative;
+  height: 100px; /* Adjust this height to fit your content */
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 1s ease-in-out; /* Transition duration for opacity */
+}
