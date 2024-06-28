@@ -16,3 +16,16 @@
   padding-bottom: 70px;
 }
 
+.heroswipe .swiper .swiper-wrapper{
+
+  padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .heroswipe .swiper .swiper-wrapper{
+    display: flex !important;
+    align-items: center !important;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+}
+
