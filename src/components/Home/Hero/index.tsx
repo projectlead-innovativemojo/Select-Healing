@@ -8,20 +8,17 @@ import headingbg from "@/public/images/home/headingbg.png";
 import Navbar from "@/components/Navbar";
 import Text from "@/components/ui/Text";
 import Button from "@/components/ui/Button";
+import SlideContent from "./SlideContent";
 
 interface HeroProps {
   scrollToWorkshops: () => void;
 }
 const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
-  const handleClick = () => {
-    if (window.innerWidth <= 768) { // Adjust this value based on your mobile breakpoint
-      scrollToWorkshops();
-    }
-  };
+
   return (
     <div className="relative min-h-[100vh] mob:min-h-[600px]">
       <Navbar />
-      <div onClick={handleClick} className=" w-full flex items-center  min-h-[70vh] mob:min-h-[500px]">
+      <div className=" w-full   min-h-[70vh] heroswipe mob:min-h-[500px] ">
         <Image
           className="absolute object-cover bg-center w-full  h-full top-0 z-0"
           src={bg}
@@ -31,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
         />
 
         {/* content */}
-        <div className="relative z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5 ">
+        {/* <div className="relative z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5 ">
           <div className="max-w-[906.89px] w-full">
             <Text
               as="h1"
@@ -59,7 +56,8 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
+        <SlideContent scrollToWorkshops={scrollToWorkshops} />
       </div>
     </div>
   );
