@@ -29,15 +29,10 @@ interface HeroProps {
   scrollToWorkshops: () => void;
 }
 const Slider: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
-  const handleClick = () => {
-    if (window.innerWidth <= 768) {
-      scrollToWorkshops();
-    }
-  };
-
+ 
   return (
     <Swiper
-      className="portfolioSlider"
+      className="portfolioSlider "
       loop={true}
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, Mousewheel]}
       // navigation={{
