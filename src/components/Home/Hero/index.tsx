@@ -78,17 +78,20 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
         </div>
 
         {/*  */}
-
+        
         <div  
-         className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5   ${
-          showFirstText ? 'fade-out z-10' : 'fade-in z-30'
-        }`}>
+         className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5  
+          ${
+            showFirstText ? 'fade-out z-10' : 'fade-in z-30'
+          }
+        `
+        }>
           <div className="max-w-[906.89px] w-full">
             <Text
               as="h1"
-              className="max-w-[688.48px] relative  mob:text-[35px] mob:leading-[45px] mob:max-w-full mob:text-center"
+              className="max-w-[688.48px] relative  mob:text-[35px] mob:leading-[40px] mob:max-w-full mob:text-center"
             >
-              <span className="relative z-10 ]"> Upcoming Retreat</span>
+              <span className="relative z-10 "> Upcoming Retreat</span>
               <Image
                 className="absolute  top-[53%] -left-5 mob:left-0 z-0"
                 src={headingbg}
@@ -99,7 +102,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
             </Text>
             <Text
               as="h1"
-              className="max-w-[688.48px] relative font-bold text-[30px] mob:text-[25px] mob:leading-[45px] mob:max-w-full mob:text-center mt-5 mb-5"
+              className="max-w-[688.48px] relative font-bold text-[25px] mob:text-[25px] mob:leading-[34px] mob:max-w-full mob:text-center mt-5 mb-5 mob:mb-2"
             >
                 Date:
               <span className="relative z-10 font-medium">
@@ -107,6 +110,16 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
                  September <br className="hidden mob:block" /> 18 – 22, 2024
               </span>
               <br />
+              
+           
+              
+            </Text>
+            <Text
+              as="h1"
+              className="max-w-[688.48px] relative font-bold text-[25px] mob:text-[25px] mob:leading-[34px] mob:max-w-full mob:text-center mt-1 mb-5 mob:mb-2"
+            >
+              
+              
               Location: <br className="hidden mob:block" /> 
               <span className="relative z-10 font-medium">
                 {" "}
@@ -114,7 +127,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
               </span>
               
             </Text>
-            <div className="flex flex-wrap gap-6 mob:gap-2 mob:justify-center">
+            <div className="flex flex-wrap gap-6 mob:gap-1 mob:justify-center">
               <div className="flex-col w-full max-w-[200.75px]">
               <Link href="https://www.selecthealing.com/events">
                 <button className="max-w-[200.75px] relative z-50 mt-5 w-full h-[55.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]">
