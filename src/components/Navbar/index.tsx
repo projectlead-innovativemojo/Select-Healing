@@ -48,6 +48,9 @@ const Navbar = () => {
                 <Link href="https://www.selecthealing.com/about" target="_blank" rel="noopener noreferrer" >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>About</li>
                 </Link>
+                <Link href="https://www.selecthealing.com/news" target="_blank" rel="noopener noreferrer" >
+                <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>News</li>
+                </Link>
                 <Link href='https://www.selecthealing.com/contact' target="_blank" rel="noopener noreferrer">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Contact</li>
                 </Link>
@@ -117,6 +120,15 @@ const Navbar = () => {
                         >
                           <li className="flex justify-center py-[15px] list-items">
                           About
+                          </li>
+                        </a>
+                        <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
+                        <a
+                          href="https://www.selecthealing.com/news"
+                          className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
+                        >
+                          <li className="flex justify-center py-[15px] list-items">
+                          News
                           </li>
                         </a>
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
