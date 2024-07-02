@@ -39,19 +39,19 @@ const Navbar = () => {
 
            {/* menu */}
               <ul className='flex gap-10 xl:hidden'>
-                <Link href='https://www.selecthealing.com/store' >
+                <Link href='https://www.selecthealing.com/store' target="_blank" rel="noopener noreferrer">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Store</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/login' >
+                <Link href='https://www.selecthealing.com/login' target="_blank" rel="noopener noreferrer">
                 <li className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>My Library</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/about' >
+                <Link href="https://www.selecthealing.com/about" target="_blank" rel="noopener noreferrer" >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>About</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/contact' >
+                <Link href='https://www.selecthealing.com/contact' target="_blank" rel="noopener noreferrer">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Contact</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/events' >
+                <Link href='https://www.selecthealing.com/events' target="_blank" rel="noopener noreferrer">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Upcoming Retreats</li>
                 </Link>
               </ul>
