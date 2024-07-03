@@ -173,7 +173,7 @@ const Joinemail = () => {
             <div className="relative flex items-center justify-center gap-8">
               <Link
                 className="bg-[#041F60] flex justify-center items-center rounded-[50%] w-[55px] h-[55px]"
-                href="https://www.facebook.com/Select.Healing"
+                href="https://www.facebook.com/Select.Healing" target="_blank" rel="noopener noreferrer"
               >
                 <Image
                   className="cursor-pointer w-[16px]"
@@ -186,7 +186,7 @@ const Joinemail = () => {
 
               <Link
                 className="bg-[#041F60] flex justify-center items-center rounded-[50%] w-[55px] h-[55px]"
-                href="https://www.instagram.com/select.healing/"
+                href="https://www.instagram.com/select.healing/" target="_blank" rel="noopener noreferrer"
               >
                 <Image
                   className="cursor-pointer w-[28px] mob:w-[25px]"
@@ -199,7 +199,7 @@ const Joinemail = () => {
 
               <Link
                 className="bg-[#041F60] flex justify-center items-center rounded-[50%] w-[55px] h-[55px]"
-                href="https://www.youtube.com/@davidstarbucksmith"
+                href="https://www.youtube.com/@davidstarbucksmith" target="_blank" rel="noopener noreferrer"
               >
                 <Image
                   className="cursor-pointer w-[28px]"
