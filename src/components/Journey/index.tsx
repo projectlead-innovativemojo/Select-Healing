@@ -1,4 +1,6 @@
+"use client "
 import React, { FC } from "react";
+import { useRef, useEffect, RefObject } from 'react';
 import Image from "next/image";
 
 import Text from "../ui/Text";
@@ -14,19 +16,39 @@ interface JourneyProps {
 }
 
 const Journey: FC<JourneyProps> = ({ refvalue }) => {
+
+  const videoRef: RefObject<HTMLVideoElement> = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      const handlePlayPause = () => {
+        if (video.paused) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      };
+      video.addEventListener('click', handlePlayPause);
+      return () => {
+      //  
+      };
+    }
+  }, []);
   return (
     <>
       <div className=" flex justify-center -mt-16">
-        <video
-          className="cursor-pointer max-w-[58%] rounded-[30px] w-full mob:max-w-[90%]"
-          src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
-          poster="/images/home/youcan.png"
-          width={1607.34}
-          height={1182.23}
-          loop
-          playsInline
-          controls
-        ></video>
+      <video
+      ref={videoRef}
+      className="cursor-pointer max-w-[58%] rounded-[30px] w-full mob:max-w-[90%] relative z-40"
+      src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
+      poster="/images/home/youcan.png"
+      width={1607.34}
+      height={1182.23}
+      loop
+      playsInline
+      controls
+    ></video>
       </div>
       <div className="flex justify-center" ref={refvalue}>
         <div className="pb-32 pt-10 px-5 max-w-[1440.36px]">
