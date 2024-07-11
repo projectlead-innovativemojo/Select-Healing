@@ -91,7 +91,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                 className="flex justify-center mt-8"
               >
                 <Button className="max-w-[235.55px] h-[65.66px]">
-                  Enroll Now
+                Learn More
                 </Button>
               </Link>
             </div>
@@ -115,7 +115,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                 className="flex justify-center mt-8"
               >
                 <Button className="max-w-[235.55px] h-[65.66px]">
-                  Enroll Now
+                  Learn More
                 </Button>
               </Link>
             </div>
@@ -141,7 +141,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                   className="flex justify-center max-w-[235.55px] h-[65.66px] w-full"
                 >
                   <Button className="max-w-[235.55px] h-[65.66px] w-full">
-                    Enroll Now
+                    Learn More
                   </Button>
                 </Link>
               </div>
