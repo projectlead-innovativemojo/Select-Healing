@@ -71,7 +71,7 @@ const Slider = () => {
             </Text>
             <Link href="https://www.selecthealing.com/offers/wxDLS9YR" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
-                Enroll Now
+              Learn More
               </Button>
               </Link>
           </div>
@@ -87,7 +87,7 @@ const Slider = () => {
             </Text>
             <Link href="https://www.selecthealing.com/offers/rpzxMFnZ" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
-                Enroll Now
+              Learn More
               </Button>
             </Link>
           </div>
@@ -102,7 +102,7 @@ const Slider = () => {
             </Text>
             <Link href="https://www.selecthealing.com/offers/i6JXiBji" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
-                Enroll Now
+              Learn More
               </Button>
             </Link>
           </div>
@@ -118,7 +118,7 @@ const Slider = () => {
             </Text>
             <Link href="https://www.selecthealing.com/offers/uvtPUKaL" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
-                Enroll Now
+              Learn More
               </Button>
             </Link>
           </div>
