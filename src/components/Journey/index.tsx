@@ -8,7 +8,7 @@ import Button from "../ui/Button";
 
 import headingbg from "@/public/images/home/headingbg.png";
 import j1 from "@/public/images/home/backpain.png";
-import j2 from "@/public/images/home/sindaystretch.png";
+import j2 from "@/public/images/home/sundaystretch1.png";
 import j3 from "@/public/images/home/connect.png";
 import Link from "next/link";
 interface JourneyProps {
