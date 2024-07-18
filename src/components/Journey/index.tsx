@@ -109,7 +109,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                 Sunday Stretch
               </Text>
               <Link
-                href="https://www.selecthealing.com/offers/GWw5J6iS/checkout"
+                href="https://www.selecthealing.com/sunday-stretch"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-center mt-8"
