@@ -54,8 +54,8 @@ const Navbar = () => {
                 <Link href='https://www.selecthealing.com/contact' target="_blank" rel="noopener noreferrer">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Contact</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/events' target="_blank" rel="noopener noreferrer">
-                <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Upcoming Retreats</li>
+                <Link href='https://www.selecthealing.com/Connect-retreat' target="_blank" rel="noopener noreferrer">
+                <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Upcoming Retreat</li>
                 </Link>
               </ul>
 
@@ -144,11 +144,11 @@ const Navbar = () => {
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
                         <a
-                          href="https://www.selecthealing.com/events"
+                          href="https://www.selecthealing.com/Connect-retreat"
                           className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
                         >
                           <li className="flex justify-center py-[15px] list-items">
-                          Upcoming Retreats
+                          Upcoming Retreat
                           </li>
                         </a>
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
