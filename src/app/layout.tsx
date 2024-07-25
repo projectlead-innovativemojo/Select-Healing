@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat,Libre_Baskerville,Poppins } from "next/font/google";
-import Head from 'next/head';
 import "./globals.css";
-
+import Script from 'next/script';
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const monts = Montserrat({
@@ -34,20 +33,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <Head>
-        {/* Google Analytics Script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSF1JXK0GN"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-NSF1JXK0GN');
-            `,
-          }}
+         <head>
+        {/* Add the Google Analytics script */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-NSF1JXK0GN`}
+          strategy="afterInteractive"
         />
-      </Head>
+       <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NSF1JXK0GN');
+          `}
+        </Script>
+      </head>
       <body className={` ${inter.variable}  ${monts.variable} ${libre.variable} ${poppins.variable}  `}>
         {children}
       </body>
