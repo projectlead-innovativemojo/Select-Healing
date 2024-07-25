@@ -19,19 +19,31 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
 
   const videoRef: RefObject<HTMLVideoElement> = useRef(null);
 
+ 
   useEffect(() => {
     const video = videoRef.current;
+    
     if (video) {
-      const handlePlayPause = () => {
-        if (video.paused) {
-          video.play();
+      const playVideo = () => {
+        // Check screen width
+        if (window.innerWidth < 768) {
+          video.play().catch(error => {
+            console.error('Error attempting to play the video:', error);
+          });
         } else {
           video.pause();
         }
       };
-      video.addEventListener('click', handlePlayPause);
+
+      // Play or pause video based on screen width
+      playVideo();
+
+      // Add event listener for window resize
+      window.addEventListener('resize', playVideo);
+
+      // Cleanup event listener on component unmount
       return () => {
-      //  
+        window.removeEventListener('resize', playVideo);
       };
     }
   }, []);
@@ -39,16 +51,17 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
     <>
       <div className=" flex justify-center -mt-16">
       <video
-      ref={videoRef}
-      className="cursor-pointer max-w-[58%] rounded-[30px] w-full mob:max-w-[90%] relative z-40"
-      src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
-      poster="/images/home/youcan.png"
-      width={1607.34}
-      height={1182.23}
-      loop
-      playsInline
-      controls
-    ></video>
+        ref={videoRef}
+        className="cursor-pointer max-w-[58%] rounded-[30px] w-full mob:max-w-[90%] relative z-40"
+        src="https://emmesolutions.my.canva.site/videos/c2ba35cc1a6ac6c8176307bc83411ebb.mp4"
+        poster="/images/home/youcan.png"
+        width={1607.34}
+        height={1182.23}
+        loop
+        playsInline
+        controls
+        muted
+      ></video>
       </div>
       <div className="flex justify-center" ref={refvalue}>
         <div className="pb-32 pt-10 px-5 max-w-[1440.36px]">
