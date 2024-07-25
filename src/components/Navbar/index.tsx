@@ -39,22 +39,22 @@ const Navbar = () => {
 
            {/* menu */}
               <ul className='flex gap-10 xl:hidden'>
-                <Link href='https://www.selecthealing.com/store' target="_blank" rel="noopener noreferrer">
+                <Link href='https://www.selecthealing.com/store' >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Store</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/login' target="_blank" rel="noopener noreferrer">
+                <Link href='https://www.selecthealing.com/login' >
                 <li className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>My Library</li>
                 </Link>
-                <Link href="https://www.selecthealing.com/about" target="_blank" rel="noopener noreferrer" >
+                <Link href="https://www.selecthealing.com/about" >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>About</li>
                 </Link>
-                <Link href="https://www.selecthealing.com/news" target="_blank" rel="noopener noreferrer" >
+                <Link href="https://www.selecthealing.com/news"  >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>News</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/contact' target="_blank" rel="noopener noreferrer">
+                <Link href='https://www.selecthealing.com/contact' >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Contact</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/Connect-retreat' target="_blank" rel="noopener noreferrer">
+                <Link href='https://www.selecthealing.com/Connect-retreat' >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Upcoming Retreat</li>
                 </Link>
               </ul>
