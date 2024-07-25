@@ -3,9 +3,11 @@ import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { gsap } from "gsap";
 
+
 import Drawer from "../ui/Drawer";
 import logo from "@/public/images/home/logo.png"
 import Link from 'next/link'
+import { useRouter } from 'next/navigation';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,16 +34,22 @@ const Navbar = () => {
     }
   }, [isOpen]);
 
+  const router = useRouter();
+
+  const navigateTo = (url: string) => {
+    router.push(url);
+  };
+
   return (
     <div className='flex justify-center relative z-50 pb-36 mob:pb-0'>
         <div className="max-w-[1440px] w-full px-[5%] pt-[30px] flex justify-between items-center  mob:pl-0 mob:pr-5 ">
             <Image className='' src={logo} alt="" width={300.19} height={159.77} />
 
            {/* menu */}
-              <ul className='flex gap-10 xl:hidden'>
-                <Link href='https://www.selecthealing.com/store' >
+              {/* <ul className='flex gap-10 xl:hidden'>
+                <button  onClick={goToPage} >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Store</li>
-                </Link>
+                </button >
                 <Link href='https://www.selecthealing.com/login' >
                 <li className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>My Library</li>
                 </Link>
@@ -57,8 +65,45 @@ const Navbar = () => {
                 <Link href='https://www.selecthealing.com/Connect-retreat' >
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Upcoming Retreat</li>
                 </Link>
-              </ul>
-
+              </ul> */}
+              <ul className='flex gap-10 xl:hidden'>
+      <button 
+        onClick={() => navigateTo('https://www.selecthealing.com/store')}
+        className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'
+      >
+        Store
+      </button>
+      <button 
+        onClick={() => navigateTo('https://www.selecthealing.com/login')}
+        className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'
+      >
+        My Library
+      </button>
+      <button 
+        onClick={() => navigateTo('https://www.selecthealing.com/about')}
+        className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'
+      >
+        About
+      </button>
+      <button 
+        onClick={() => navigateTo('https://www.selecthealing.com/news')}
+        className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'
+      >
+        News
+      </button>
+      <button 
+        onClick={() => navigateTo('https://www.selecthealing.com/contact')}
+        className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'
+      >
+        Contact
+      </button>
+      <button 
+        onClick={() => navigateTo('https://www.selecthealing.com/Connect-retreat')}
+        className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'
+      >
+        Upcoming Retreat
+      </button>
+    </ul>
               {/* mobile menu */}
               <div className="hidden xl:block ">
                 <div
