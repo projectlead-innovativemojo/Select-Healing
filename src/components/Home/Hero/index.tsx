@@ -129,7 +129,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
             </Text>
             <div className="flex flex-wrap gap-6 mob:gap-1 mob:justify-center">
               <div className="flex-col w-full max-w-[200.75px]">
-              <Link href="https://www.selecthealing.com/Connect-retreat" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.selecthealing.com/Connect-retreat" >
                 <button className="max-w-[200.75px] relative z-50 mt-5 w-full h-[55.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]">
                   Learn More
                 </button>
@@ -137,7 +137,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
               </div>
 
               <div className="flex-col w-full max-w-[200.75px]">
-              <Link href="https://buy.stripe.com/aEU9B37Xbburecg3cn" target="_blank" rel="noopener noreferrer">
+              <Link href="https://buy.stripe.com/aEU9B37Xbburecg3cn" >
                 <button className="max-w-[200.75px] relative z-50 mt-5 w-full h-[55.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]">
                   Register Now
                 </button>
