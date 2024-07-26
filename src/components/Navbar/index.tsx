@@ -39,22 +39,22 @@ const Navbar = () => {
 
            {/* menu */}
               <ul className='flex gap-10 xl:hidden'>
-                <Link href='https://www.selecthealing.com/store' >
+                <Link href='https://www.selecthealing.com/store' target="_blank">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Store</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/login' >
+                <Link href='https://www.selecthealing.com/login' target="_blank">
                 <li className='font-semibold text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>My Library</li>
                 </Link>
-                <Link href="https://www.selecthealing.com/about" >
+                <Link href="https://www.selecthealing.com/about" target="_blank">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>About</li>
                 </Link>
-                <Link href="https://www.selecthealing.com/news"  >
+                <Link href="https://www.selecthealing.com/news"  target="_blank">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>News</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/contact' >
+                <Link href='https://www.selecthealing.com/contact' target="_blank">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Contact</li>
                 </Link>
-                <Link href='https://www.selecthealing.com/Connect-retreat' >
+                <Link href='https://www.selecthealing.com/Connect-retreat' target="_blank">
                 <li className='font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins'>Upcoming Retreat</li>
                 </Link>
               </ul>
@@ -95,7 +95,7 @@ const Navbar = () => {
                     <div className="flex items-center h-full w-full ">
                       <ul className="font-normal  w-full  mob:left-0 mob:w-full z-50 flex flex-col py-4 md:p-0 mt-4 gap-[0px]  rtl:space-x-reverse md:mt-0 ">
                         <a
-                          href="https://www.selecthealing.com/store"
+                          href="https://www.selecthealing.com/store" target="_blank"
                           className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  " 
                         >
                           <li className="flex justify-center py-[15px] list-items">
@@ -105,7 +105,7 @@ const Navbar = () => {
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
                         <a
-                          href="https://www.selecthealing.com/login"
+                          href="https://www.selecthealing.com/login" target="_blank"
                           className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
                         >
                           <li className="flex justify-center py-[15px] list-items">
@@ -115,7 +115,7 @@ const Navbar = () => {
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
                         <a
-                          href="https://www.selecthealing.com/about"
+                          href="https://www.selecthealing.com/about" target="_blank"
                           className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
                         >
                           <li className="flex justify-center py-[15px] list-items">
@@ -124,7 +124,7 @@ const Navbar = () => {
                         </a>
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
                         <a
-                          href="https://www.selecthealing.com/news"
+                          href="https://www.selecthealing.com/news" target="_blank"
                           className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
                         >
                           <li className="flex justify-center py-[15px] list-items">
@@ -134,7 +134,7 @@ const Navbar = () => {
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
                         <a
-                          href="https://www.selecthealing.com/contact"
+                          href="https://www.selecthealing.com/contact" target="_blank"
                           className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
                         >
                           <li className="flex justify-center py-[15px] list-items">
@@ -144,7 +144,7 @@ const Navbar = () => {
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
                         <a
-                          href="https://www.selecthealing.com/Connect-retreat"
+                          href="https://www.selecthealing.com/Connect-retreat" target="_blank"
                           className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
                         >
                           <li className="flex justify-center py-[15px] list-items">

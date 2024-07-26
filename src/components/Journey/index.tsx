@@ -98,7 +98,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                 Back Pain
               </Text>
               <Link
-                href="https://www.selecthealing.com/healing-back-pain-5045b7e2-262c-428c-a825-42d1048fba17"
+                href="https://www.selecthealing.com/healing-back-pain-5045b7e2-262c-428c-a825-42d1048fba17" target="_blank"
                 className="flex justify-center mt-8"
               >
                 <Button className="max-w-[235.55px] h-[65.66px]">
@@ -120,8 +120,8 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                 Sunday Stretch
               </Text>
               <Link
-                href="https://www.selecthealing.com/sunday-stretch"
-                className="flex justify-center mt-8"
+                href="https://www.selecthealing.com/sunday-stretch" target="_blank"
+                className="flex justify-center mt-8" 
               >
                 <Button className="max-w-[235.55px] h-[65.66px]">
                   Learn More
@@ -144,7 +144,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
 
               <div className="flex justify-center mt-8 relative z-40">
                 <Link
-                  href="https://www.selecthealing.com/connect"
+                  href="https://www.selecthealing.com/connect" target="_blank"
                   className="flex justify-center max-w-[235.55px] h-[65.66px] w-full"
                 >
                   <Button className="max-w-[235.55px] h-[65.66px] w-full">
