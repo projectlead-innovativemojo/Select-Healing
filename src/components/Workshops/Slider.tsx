@@ -69,7 +69,7 @@ const Slider = () => {
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] my-4">
             Discussing the Degenerative Hip
             </Text>
-            <Link href="https://www.selecthealing.com/offers/wxDLS9YR" className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/wxDLS9YR" target="_blank" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
               Learn More
               </Button>
@@ -85,7 +85,7 @@ const Slider = () => {
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] pb-[1px] my-4">
             Exercise Dissection Workshop
             </Text>
-            <Link href="https://www.selecthealing.com/offers/rpzxMFnZ" className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/rpzxMFnZ" target="_blank" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
               Learn More
               </Button>
@@ -100,7 +100,7 @@ const Slider = () => {
             <Text as="h2" className="text-center leading-[31.2px] text-[24px] pb-[1px] my-4">
             Discovering the <br /> Postural Nuances
             </Text>
-            <Link href="https://www.selecthealing.com/offers/i6JXiBji" className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/i6JXiBji" target="_blank" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
               Learn More
               </Button>
@@ -116,7 +116,7 @@ const Slider = () => {
             <Text as="h2" className="text-center text-[24px] leading-[31.2px] pb-[1px] my-5">
             Examining the Shoulder Girdle
             </Text>
-            <Link href="https://www.selecthealing.com/offers/uvtPUKaL" className="flex justify-center ">
+            <Link href="https://www.selecthealing.com/offers/uvtPUKaL" target="_blank" className="flex justify-center ">
               <Button className="max-w-[235.55px] h-[65.66px] bg-[#041F60]">
               Learn More
               </Button>
