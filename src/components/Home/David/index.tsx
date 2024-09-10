@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-import david from "@/public/images/home/Image-of-david.png";
+import david from "@/public/images/home/davidphoto.png";
 import Text from "@/components/ui/Text";
-import Button from "@/components/ui/Button";
-import Vidpopup from "./Vidpopup";
+// import Button from "@/components/ui/Button";
+// import Vidpopup from "./Vidpopup";
 
 const David = () => {
   return (
