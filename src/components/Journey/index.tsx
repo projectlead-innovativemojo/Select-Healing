@@ -54,7 +54,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
         ref={videoRef}
         className="cursor-pointer max-w-[58%] rounded-[30px] w-full mob:max-w-[90%] relative z-40"
         src="/SELECTHEALING_WEBSITE_V1.mp4"
-        poster="/images/home/youcan.png"
+        poster="/images/home/thumbnaill.png"
         width={1607.34}
         height={1182.23}
         loop
