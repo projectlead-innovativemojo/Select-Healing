@@ -133,6 +133,17 @@ const Navbar = () => {
                         </a>
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
+                        
+                        <a
+                          href="https://www.selecthealing.com/Connect-retreat" target="_blank"
+                          className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
+                        >
+                          <li className="flex justify-center py-[15px] list-items">
+                          Upcoming Retreats.
+                          </li>
+                        </a>
+                        <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
+
                         <a
                           href="https://www.selecthealing.com/contact" target="_blank"
                           className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
@@ -143,17 +154,6 @@ const Navbar = () => {
                         </a>
                         <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
-                        <a
-                          href="https://www.selecthealing.com/Connect-retreat" target="_blank"
-                          className="block  text-[20px] font-poppins font-medium leading-[25.5px] text-[#FFFFFF]  "
-                        >
-                          <li className="flex justify-center py-[15px] list-items">
-                          Upcoming Retreat
-                          </li>
-                        </a>
-                        <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
-
-                     
                       </ul>
                     </div>
                   </Drawer>

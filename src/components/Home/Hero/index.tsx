@@ -55,7 +55,8 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
             >
               <span className="relative z-10 ]">
                 {" "}
-                Start Today, ​Transform ​Your Health And Your Life.
+                {/* Start Today, ​Transform ​Your Health And Your Life. */}
+                End Chronic Pain, return to the activities you love.
               </span>
               <Image
                 className="absolute  top-[53%] -left-5 mob:left-0 z-0"
@@ -107,7 +108,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
                 Date:
               <span className="relative z-10 font-medium">
                 {" "}
-                 September <br className="hidden mob:block" /> 18 – 22, 2024
+                 September <br className="hidden mob:block" /> 18 – 22, 2025
               </span>
               <br />
               
