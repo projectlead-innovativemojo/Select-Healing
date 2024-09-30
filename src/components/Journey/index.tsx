@@ -72,7 +72,8 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
             >
               <span className="relative z-10 ]">
                 {" "}
-                Pathways to Self-Healing and Transformation.
+                {/* Pathways to Self-Healing and Transformation. */}
+                Courses to Heal Your Chronic Pain.
               </span>
               <Image
                 className="absolute  bottom-[0] left-[30%] mob:left-0 z-0"
@@ -92,10 +93,10 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                 as="p"
                 className="text-[#041F60] text-center leading-[26px] mt-10"
               >
-                Select Healing:
+                Online Course: 
               </Text>
               <Text as="h2" className="text-center">
-                Back Pain
+              Healing Back Pain.
               </Text>
               <Link
                 href="https://www.selecthealing.com/healing-back-pain-5045b7e2-262c-428c-a825-42d1048fba17" target="_blank"
@@ -109,12 +110,39 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
 
             {/* 2 */}
             <div className="flex-col w-full max-w-[370.09px]">
+              <Image src={j3} alt="" width={427.09} height={289.44} />
+              <Text
+                as="p"
+                className="text-[#041F60] text-center leading-[26px] mt-10"
+              >
+                Online Course:  
+              </Text>
+              <Text as="h2" className="text-center">
+              Healing Chronic Pain.
+              </Text>
+
+              <div className="flex justify-center mt-8 relative z-40">
+                <Link
+                  href="https://www.selecthealing.com/connect" target="_blank"
+                  className="flex justify-center max-w-[235.55px] h-[65.66px] w-full"
+                >
+                  <Button className="max-w-[235.55px] h-[65.66px] w-full">
+                    Learn More
+                  </Button>
+                </Link>
+              </div>
+            </div>
+
+          
+
+            {/* 3 */}
+            <div className="flex-col w-full max-w-[370.09px]">
               <Image src={j2} alt="" width={427.09} height={289.44} />
               <Text
                 as="p"
                 className="text-[#041F60] text-center leading-[26px] mt-10"
               >
-                Select Healing:
+               Weekly Flexibility/Alignment Classes
               </Text>
               <Text as="h2" className="text-center">
                 Sunday Stretch
@@ -129,30 +157,6 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
               </Link>
             </div>
 
-            {/* 3 */}
-            <div className="flex-col w-full max-w-[370.09px]">
-              <Image src={j3} alt="" width={427.09} height={289.44} />
-              <Text
-                as="p"
-                className="text-[#041F60] text-center leading-[26px] mt-10"
-              >
-                Select Healing:
-              </Text>
-              <Text as="h2" className="text-center">
-                Connect
-              </Text>
-
-              <div className="flex justify-center mt-8 relative z-40">
-                <Link
-                  href="https://www.selecthealing.com/connect" target="_blank"
-                  className="flex justify-center max-w-[235.55px] h-[65.66px] w-full"
-                >
-                  <Button className="max-w-[235.55px] h-[65.66px] w-full">
-                    Learn More
-                  </Button>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>

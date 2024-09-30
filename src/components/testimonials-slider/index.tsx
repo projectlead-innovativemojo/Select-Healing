@@ -142,7 +142,7 @@ import { useState } from "react";
 //                 <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[450px]">
 //                   <Text
 //                     as="p"
-//                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+//                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
 //                   >
 //                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
 //                     The mind-body connection is everything and David Starbuck Smith is the pain free expert.
@@ -168,7 +168,7 @@ import { useState } from "react";
 //                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[450px] flex justify-center items-center px-[10px] flex-col">
 //                   <Text
 //                     as="p"
-//                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+//                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
 //                   >
 //                     This program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. Each class gave me easy action steps I feel I will use for many years to come!
 //                   </Text>
@@ -193,7 +193,7 @@ import { useState } from "react";
 //                 <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[450px]">
 //                   <Text
 //                     as="p"
-//                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+//                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
 //                   >
 //                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
 //                     The mind-body connection is everything and David Starbuck Smith is the pain free expert.
@@ -219,7 +219,7 @@ import { useState } from "react";
 //                 <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[450px]">
 //                   <Text
 //                     as="p"
-//                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+//                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
 //                   >
 //                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
 //                     The mind-body connection is everything and David Starbuck Smith is the pain free expert.
@@ -344,10 +344,10 @@ function TestimonialSlider() {
                 <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[495px]">
                   <Text
                     as="p"
-                    className="text-[#041F60] text-[19px] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+                    className="text-[#041F60] text-[19px] pt-[100px] text-center max-w-[368px] m-auto px-3"
                   >
-                  David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
-The mind-body connection is everything and David Starbuck Smith is the pain free expert.
+                David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger.
+                The mind-body connection is everything and David Starbuck Smith is the pain free expert.
                   </Text>
                   {/* <Image
                     src={sliderImage}
@@ -377,10 +377,10 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
                 <Text
         as="p"
-        className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto capitalize"
+        className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto px-3"
       >
-        When you are in pain you get to a place where things aren&apos;t working and you are scared. You will do whatever it takes to get out of that pain. But this felt different than anything else I&apos;ve tried before. This gave me my life back in my 30s - I went from not being able to do anything physical to surfing and cycling...
-      </Text>
+       When you are in pain you get to a place where things aren’t working and you are scared. you will do whatever it takes to get out of that pain. but this felt different than anything else I’ve tried before. this gave me my life back in my 30s - I went from not being able to do anything physical to surfing and cycling...
+       </Text>
       <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">
         Katie&nbsp;S
       </Text>
@@ -405,10 +405,10 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
                   >
-              This program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. Each class gave me easy action steps I feel I will use for many years to come!
-                  </Text>
+              This program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. each class gave me easy action steps I feel I will use for many years to come!
+                </Text>
                   {/* <Image
                     src={sliderImage}
                     alt="sliderImage"
@@ -439,10 +439,10 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                 <div className="bg-white rounded-[20px] max-w-[686px] flex justify-center items-center px-[10px] flex-col min-h-[495px]">
                   <Text
                     as="p"
-                    className="text-[#041F60] text-[19px] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+                    className="text-[#041F60] text-[19px] pt-[100px] text-center max-w-[368px] m-auto px-3"
                   >
-                  David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
-The mind-body connection is everything and David Starbuck Smith is the pain free expert.
+                 David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger.
+                 The mind-body connection is everything and David Starbuck Smith is the pain free expert.
                   </Text>
                   {/* <Image
                     src={sliderImage}
@@ -472,10 +472,10 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
                 <Text
         as="p"
-        className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto capitalize"
+        className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto px-3"
       >
-        When you are in pain you get to a place where things aren&apos;t working and you are scared. You will do whatever it takes to get out of that pain. But this felt different than anything else I&apos;ve tried before. This gave me my life back in my 30s - I went from not being able to do anything physical to surfing and cycling...
-      </Text>
+       When you are in pain you get to a place where things aren’t working and you are scared. you will do whatever it takes to get out of that pain. but this felt different than anything else I’ve tried before. this gave me my life back in my 30s - I went from not being able to do anything physical to surfing and cycling...
+           </Text>
       <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">
         Katie&nbsp;S
       </Text>
@@ -500,10 +500,10 @@ The mind-body connection is everything and David Starbuck Smith is the pain free
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
                   <Text
                     as="p"
-                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto capitalize"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
                   >
-              This program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. Each class gave me easy action steps I feel I will use for many years to come!
-                  </Text>
+             this program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. each class gave me easy action steps I feel I will use for many years to come!
+                 </Text>
                   {/* <Image
                     src={sliderImage}
                     alt="sliderImage"
