@@ -18,12 +18,14 @@ export default function Home() {
     <main className="">
 
       <Hero scrollToWorkshops={() => workshopsRef.current?.scrollIntoView({ behavior: 'smooth' })} />
-      <David/>
+          <Heal scrollToWorkshops={() => workshopsRef.current?.scrollIntoView({ behavior: 'smooth' })}/>
+      {/* <David/> */}
       <div >
       <Journey refvalue={workshopsRef} />
       </div>
         <Workshops />
-      <Heal scrollToWorkshops={() => workshopsRef.current?.scrollIntoView({ behavior: 'smooth' })}/>
+      {/* <Heal scrollToWorkshops={() => workshopsRef.current?.scrollIntoView({ behavior: 'smooth' })}/> */}
+       <David/>
       <Youcan/>
         <TestimonialSlider />
       <Joinemail/>
