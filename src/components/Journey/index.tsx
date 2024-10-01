@@ -93,10 +93,10 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                 as="p"
                 className="text-[#041F60] text-center leading-[26px] mt-10"
               >
-                Online Course: 
+                Online Course
               </Text>
               <Text as="h2" className="text-center">
-              Healing Back Pain.
+              Healing Back Pain
               </Text>
               <Link
                 href="https://www.selecthealing.com/healing-back-pain-5045b7e2-262c-428c-a825-42d1048fba17" target="_blank"
@@ -115,10 +115,10 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                 as="p"
                 className="text-[#041F60] text-center leading-[26px] mt-10"
               >
-                Online Course:  
+                Online Course
               </Text>
               <Text as="h2" className="text-center">
-              Healing Chronic Pain.
+              Healing Chronic Pain
               </Text>
 
               <div className="flex justify-center mt-8 relative z-40">

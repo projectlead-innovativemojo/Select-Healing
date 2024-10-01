@@ -54,7 +54,30 @@ const David = () => {
   a holistic life, mind and body health coach.
 </Text> */}
 
-<Text as="p" className="my-3 mob:text-center">
+              <ul className="list-disc my-6 ml-6">
+                <li className="text-[#FFFFFF] text-[20px] font-normal leading-[26px] font-poppins my-6">
+                  I’ve been passionate about helping people heal their acute and
+                  chronic pain for{" "}
+                  <span className="font-bold">over 25 years</span>
+                </li>
+                <li className="text-[#FFFFFF] text-[20px] font-normal leading-[26px] font-poppins">
+                  I’m an accredited{" "}
+                  <span className="font-bold">
+                    Exercise Therapist, certified life coach, author of 2 books,
+                    and mentor
+                  </span>{" "}
+                  to hundreds of other health practitioners worldwide.
+                </li>
+                <li className="text-[#FFFFFF] text-[20px] font-normal leading-[26px] font-poppins my-6">
+                  I believe{" "}
+                  <span className="font-bold">
+                    you have the capacity to heal
+                  </span>{" "}
+                  no matter how long you’ve been in pain
+                </li>
+              </ul>
+
+              {/* <Text as="p" className="my-3 mob:text-center">
   I&apos;m a holistic life, mind, and body health coach. I&apos;m also an
   author, speaker, outdoor enthusiast, athlete, husband, and dog
   dad. My personal journey of overcoming chronic pain has fueled
@@ -73,7 +96,7 @@ const David = () => {
   I&apos;ve helped thousands of people return to their lives and the
   activities they love, free of pain, and I&apos;d like
   to help you, too!
-</Text>
+</Text> */}
 
               {/* <div className="mob:flex mob:justify-center">
                 <Vidpopup />
