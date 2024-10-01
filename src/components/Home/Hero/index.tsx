@@ -53,7 +53,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
               as="h1"
               className="max-w-[688.48px] relative  mob:text-[30px] mob:leading-[45px] mob:max-w-full mob:text-center"
             >
-              <span className="relative z-10 ]">
+              <span className="relative z-10 capitalize">
                 {" "}
                 {/* Start Today, ​Transform ​Your Health And Your Life. */}
                 End Chronic Pain, return to the activities you love.

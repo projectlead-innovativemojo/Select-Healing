@@ -144,7 +144,7 @@ import { useState } from "react";
 //                     as="p"
 //                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
 //                   >
-//                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
+//                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger.
 //                     The mind-body connection is everything and David Starbuck Smith is the pain free expert.
 //                   </Text>
 //                   <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Nikki N.</Text>
@@ -195,7 +195,7 @@ import { useState } from "react";
 //                     as="p"
 //                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
 //                   >
-//                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
+//                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger.
 //                     The mind-body connection is everything and David Starbuck Smith is the pain free expert.
 //                   </Text>
 //                   <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Nikki N.</Text>
@@ -221,14 +221,14 @@ import { useState } from "react";
 //                     as="p"
 //                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
 //                   >
-//                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger. 
+//                     David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger.
 //                     The mind-body connection is everything and David Starbuck Smith is the pain free expert.
 //                   </Text>
 //                   <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Nikki N.</Text>
 //                 </div>
 //               </div>
 //             </SwiperSlide>
-           
+
 //           </div>
 //         </Swiper>
 //         <CustomPagination />
@@ -238,7 +238,6 @@ import { useState } from "react";
 // }
 
 // export default TestimonialSlider;
-
 
 function TestimonialSlider() {
   const swiper = useSwiper();
@@ -346,8 +345,10 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] text-[19px] pt-[100px] text-center max-w-[368px] m-auto px-3"
                   >
-                David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger.
-                The mind-body connection is everything and David Starbuck Smith is the pain free expert.
+                    David gave me the tools, the stretches, the mindset and the
+                    power to heal, recover and come back stronger. The mind-body
+                    connection is everything and David Starbuck Smith is the
+                    pain free expert.
                   </Text>
                   {/* <Image
                     src={sliderImage}
@@ -356,7 +357,12 @@ function TestimonialSlider() {
                     height={69}
                     className=" pb-[53px] pt-5"
                   /> */}
-                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Nikki N.</Text>
+                  <Text
+                    as="h2"
+                    className="text-[#000] font-bold pb-[53px] pt-5"
+                  >
+                    Nikki N.
+                  </Text>
                 </div>
               </div>
             </SwiperSlide>
@@ -375,19 +381,27 @@ function TestimonialSlider() {
                   />
                 </div>
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
-                <Text
-        as="p"
-        className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto px-3"
-      >
-       When you are in pain you get to a place where things aren’t working and you are scared. you will do whatever it takes to get out of that pain. but this felt different than anything else I’ve tried before. this gave me my life back in my 30s - I went from not being able to do anything physical to surfing and cycling...
-       </Text>
-      <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">
-        Katie&nbsp;S
-      </Text>
+                  <Text
+                    as="p"
+                    className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto px-3"
+                  >
+                    When you are in pain you get to a place where things aren’t
+                    working and you are scared. you will do whatever it takes to
+                    get out of that pain. But this felt different than anything
+                    else I’ve tried before. This gave me my life back in my 30s
+                    - I went from not being able to do anything physical to
+                    surfing and cycling...
+                  </Text>
+                  <Text
+                    as="h2"
+                    className="text-[#000] font-bold pb-[53px] pt-5"
+                  >
+                    Katie&nbsp;S
+                  </Text>
                 </div>
               </div>
             </SwiperSlide>
-           
+
             <SwiperSlide>
               <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center ">
                 <div className="flex gap-[6px] relative justify-center top-10">
@@ -407,8 +421,11 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
                   >
-              This program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. each class gave me easy action steps I feel I will use for many years to come!
-                </Text>
+                    This program offered great guidance and advice on the
+                    mind/body connection through the exercises, meditation, and
+                    overall knowledge David offered. Each class gave me easy
+                    action steps I feel I will use for many years to come!
+                  </Text>
                   {/* <Image
                     src={sliderImage}
                     alt="sliderImage"
@@ -416,12 +433,16 @@ function TestimonialSlider() {
                     height={69}
                     className=" pb-[53px] pt-5"
                   /> */}
-                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Lisa F</Text>
-
+                  <Text
+                    as="h2"
+                    className="text-[#000] font-bold pb-[53px] pt-5"
+                  >
+                    Lisa F
+                  </Text>
                 </div>
               </div>
             </SwiperSlide>
-          
+
             <SwiperSlide>
               <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center  ">
                 <div className="flex gap-[6px] relative justify-center top-10">
@@ -441,8 +462,10 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] text-[19px] pt-[100px] text-center max-w-[368px] m-auto px-3"
                   >
-                 David gave me the tools, the stretches, the mindset and the power to heal, recover and come back stronger.
-                 The mind-body connection is everything and David Starbuck Smith is the pain free expert.
+                    David gave me the tools, the stretches, the mindset and the
+                    power to heal, recover and come back stronger. The mind-body
+                    connection is everything and David Starbuck Smith is the
+                    pain free expert.
                   </Text>
                   {/* <Image
                     src={sliderImage}
@@ -451,7 +474,12 @@ function TestimonialSlider() {
                     height={69}
                     className=" pb-[53px] pt-5"
                   /> */}
-                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Nikki N.</Text>
+                  <Text
+                    as="h2"
+                    className="text-[#000] font-bold pb-[53px] pt-5"
+                  >
+                    Nikki N.
+                  </Text>
                 </div>
               </div>
             </SwiperSlide>
@@ -470,19 +498,27 @@ function TestimonialSlider() {
                   />
                 </div>
                 <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
-                <Text
-        as="p"
-        className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto px-3"
-      >
-       When you are in pain you get to a place where things aren’t working and you are scared. you will do whatever it takes to get out of that pain. but this felt different than anything else I’ve tried before. this gave me my life back in my 30s - I went from not being able to do anything physical to surfing and cycling...
-           </Text>
-      <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">
-        Katie&nbsp;S
-      </Text>
+                  <Text
+                    as="p"
+                    className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto px-3"
+                  >
+                    When you are in pain you get to a place where things aren’t
+                    working and you are scared. You will do whatever it takes to
+                    get out of that pain. But this felt different than anything
+                    else I’ve tried before. This gave me my life back in my 30s
+                    - I went from not being able to do anything physical to
+                    surfing and cycling...
+                  </Text>
+                  <Text
+                    as="h2"
+                    className="text-[#000] font-bold pb-[53px] pt-5"
+                  >
+                    Katie&nbsp;S
+                  </Text>
                 </div>
               </div>
             </SwiperSlide>
-           
+
             <SwiperSlide>
               <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center ">
                 <div className="flex gap-[6px] relative justify-center top-10">
@@ -502,8 +538,11 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
                   >
-             this program offered great guidance and advice on the mind/body connection through the exercises, meditation, and overall knowledge David offered. each class gave me easy action steps I feel I will use for many years to come!
-                 </Text>
+                    This program offered great guidance and advice on the
+                    mind/body connection through the exercises, meditation, and
+                    overall knowledge David offered. Each class gave me easy
+                    action steps I feel I will use for many years to come!
+                  </Text>
                   {/* <Image
                     src={sliderImage}
                     alt="sliderImage"
@@ -511,12 +550,15 @@ function TestimonialSlider() {
                     height={69}
                     className=" pb-[53px] pt-5"
                   /> */}
-                  <Text as="h2" className="text-[#000] font-bold pb-[53px] pt-5">Lisa F</Text>
-
+                  <Text
+                    as="h2"
+                    className="text-[#000] font-bold pb-[53px] pt-5"
+                  >
+                    Lisa F
+                  </Text>
                 </div>
               </div>
             </SwiperSlide>
-         
           </div>
         </Swiper>
         <CustomPagination />
