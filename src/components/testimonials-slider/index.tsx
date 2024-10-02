@@ -300,9 +300,13 @@ function TestimonialSlider() {
           </div>
           
         </div>
-        <Text as="h1" className=" ml-[130px] mob:ml-0 mob:text-[30px] mob:px-5 mob:text-center text-[40px]">
+        <div className="flex justify-center items-center w-full">
+        <div className="w-full max-w-[1090px] px-5">
+        <Text as="h1" className="mob:text-[30px] mob:text-center mob:px-5 text-[40px]">
         Your Journey Starts Here…
               </Text>
+              </div>
+              </div>
 
         <Swiper
           slidesPerView={3}
