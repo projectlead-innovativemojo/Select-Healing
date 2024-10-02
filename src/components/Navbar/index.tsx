@@ -60,12 +60,12 @@ const Navbar = () => {
                 Explore More
               </span>
               {dropDownOpen && (
-                <div className="absolute left-[12px] mt-1 rounded-[8px] w-[250px] bg-white shadow-lg py-4  z-10">
+                <div className="absolute left-[0px] mt-1 rounded-[8px] w-[250px] bg-white shadow-lg py-4  z-10">
                   <Link
                     href="https://www.selecthealing.com/login"
                     target="_blank"
                   >
-                    <li className="font-semibold px-4 text-[20px] text-center leading-[23.2px] text-[#041F60] font-poppins">
+                    <li className="font-semibold px-4 text-[20px] text-left leading-[23.2px] text-[#041F60] font-poppins">
                       My Library
                     </li>
                     <hr className="h-px my-4 bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
@@ -74,7 +74,7 @@ const Navbar = () => {
                     href="https://www.selecthealing.com/about"
                     target="_blank"
                   >
-                    <li className="font-semibold px-4  text-[20px] text-center leading-[23.2px] text-[#041F60] mt-3 font-poppins">
+                    <li className="font-semibold px-4  text-[20px] text-left leading-[23.2px] text-[#041F60] mt-3 font-poppins">
                       About
                     </li>
                   </Link>
@@ -83,7 +83,7 @@ const Navbar = () => {
                     href="https://www.selecthealing.com/news"
                     target="_blank"
                   >
-                    <li className="font-semibold  text-[20px] text-center leading-[23.2px] px-4 text-[#041F60] font-poppins mt-3">
+                    <li className="font-semibold  text-[20px] text-left leading-[23.2px] px-4 text-[#041F60] font-poppins mt-3">
                       News
                     </li>
                   </Link>
