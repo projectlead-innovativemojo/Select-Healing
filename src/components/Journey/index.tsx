@@ -18,8 +18,6 @@ interface JourneyProps {
 const Journey: FC<JourneyProps> = ({ refvalue }) => {
 
   const videoRef: RefObject<HTMLVideoElement> = useRef(null);
-
- 
   useEffect(() => {
     const video = videoRef.current;
     
