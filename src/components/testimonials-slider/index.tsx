@@ -257,8 +257,8 @@ function TestimonialSlider() {
   return (
     <div className="parent-div bg-[#F0F3FF] pt-[80px] pb-[80px] mb-16">
       <div className="swiper-main-div">
-        <div className=" mb-[72px] mob:mb-0 flex justify-center w-full">
-          <div className="  mob:mt-14 xl:gap-0 flex w-full items-center mob:px-0 justify-between max-w-[1140.36px] px-5 tab:flex-col mob:flex-col mob:gap-0 tab:gap-10 ">
+        <div className=" mb-[25px] mob:mb-0 flex justify-center w-full">
+          <div className="mob:mt-14 xl:gap-0 flex w-full items-center mob:px-0 justify-between max-w-[1140.36px] px-5 mob:mb-3 tab:flex-col mob:flex-col mob:gap-0 tab:gap-10 ">
             <div className="flex flex-col relative">
               <Text as="h1" className=" mob:text-[40px]">
                 Testimonials
@@ -298,7 +298,11 @@ function TestimonialSlider() {
               </div>
             </div>
           </div>
+          
         </div>
+        <Text as="h1" className=" ml-[130px] mob:ml-0 mob:text-[30px] mob:px-5 mob:text-center text-[40px]">
+        Your Journey Starts Here…
+              </Text>
 
         <Swiper
           slidesPerView={3}

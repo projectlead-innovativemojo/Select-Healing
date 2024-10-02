@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import footlogo from "@/public/images/home/logofooter.png";
 import Text from "../ui/Text";
@@ -39,12 +40,14 @@ const Footer = () => {
             </div>
 
             <div className="flex-col">
+              <Link href="/privacy-policy">
               <Text
                 as="p"
                 className="text-[#7B7B7B]  text-[16px] text-center capitalize mob:mt-4"
               >
                 Privacy Terms
               </Text>
+              </Link>
             </div>
           </div>
         </div>
