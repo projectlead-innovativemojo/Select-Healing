@@ -91,7 +91,6 @@ const Navbar = () => {
               )}
             </div>
           </div>
-        
           <Link href="https://www.selecthealing.com/contact" target="_blank">
             <li className="font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins">
               Contact
