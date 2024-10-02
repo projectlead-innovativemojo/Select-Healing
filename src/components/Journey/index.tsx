@@ -32,10 +32,8 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
         }
       };
 
-      // Play or pause video based on screen width
       playVideo();
 
-      // Add event listener for window resize
       window.addEventListener('resize', playVideo);
 
       // Cleanup event listener on component unmount
