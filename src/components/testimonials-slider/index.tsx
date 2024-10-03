@@ -592,7 +592,7 @@ function TestimonialSlider() {
                     In my personal crusade to just manage the pain of decades of
                     back spasms and disc issues, I stumbled upon David Smith – I
                     no longer have to manage pain. I eliminated it. David is
-                    singularly the best body mechanic I've ever met.
+                    singularly the best body mechanic I&apos;ve ever met.
                   </Text>
                   {/* <Image
                     src={sliderImage}
