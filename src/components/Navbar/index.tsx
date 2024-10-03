@@ -26,16 +26,14 @@ const Navbar = () => {
       // Select all list items
       const listItems = document.querySelectorAll(".list-items");
 
-      // Set initial opacity to 0 and translateX to 20px
       gsap.set(listItems, { opacity: 0, x: 20 });
 
-      // Iterate through list items and animate them
       gsap.to(listItems, {
         delay: 0.5,
         opacity: 1,
         x: 0,
-        duration: 0.7, // Animation duration
-        stagger: 0.2, // Stagger the animation by 0.2 seconds
+        duration: 0.7,
+        stagger: 0.2, 
         ease: "power2.out", // Easing function
       });
     }
@@ -81,7 +79,7 @@ const Navbar = () => {
                   <hr className="h-px my-4 bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
                   <Link
                     href="https://www.selecthealing.com/news"
-                    target="_blank"
+                    target="_blank" 
                   >
                     <li className="font-semibold  text-[20px] text-left leading-[23.2px] px-4 text-[#041F60] font-poppins mt-3">
                       News
