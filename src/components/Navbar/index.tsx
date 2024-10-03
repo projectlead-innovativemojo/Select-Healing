@@ -32,8 +32,8 @@ const Navbar = () => {
         delay: 0.5,
         opacity: 1,
         x: 0,
-        duration: 0.7, // Animation duration
-        stagger: 0.2, // Stagger the animation by 0.2 seconds
+        duration: 0.7,
+        stagger: 0.2, 
         ease: "power2.out", // Easing function
       });
     }
