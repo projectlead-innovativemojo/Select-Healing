@@ -512,6 +512,7 @@ function TestimonialSlider() {
                     as="p"
                     className="text-[#041F60] pt-[100px] text-[19px] text-center max-w-[368px] m-auto px-3"
                   >
+                    
                     When you are in pain you get to a place where things aren’t
                     working and you are scared. You will do whatever it takes to
                     get out of that pain. But this felt different than anything
