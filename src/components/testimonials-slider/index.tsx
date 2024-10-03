@@ -298,15 +298,17 @@ function TestimonialSlider() {
               </div>
             </div>
           </div>
-          
         </div>
         <div className="flex justify-center items-center w-full">
-        <div className="w-full max-w-[1090px] px-5">
-        <Text as="h1" className="mob:text-[30px] mob:text-center mob:px-5 text-[40px]">
-        Your Journey Starts Here…
-              </Text>
-              </div>
-              </div>
+          <div className="w-full max-w-[1090px] px-5">
+            <Text
+              as="h1"
+              className="mob:text-[30px] mob:text-center mob:px-5 text-[40px]"
+            >
+              Your Journey Starts Here…
+            </Text>
+          </div>
+        </div>
 
         <Swiper
           slidesPerView={3}
@@ -404,7 +406,7 @@ function TestimonialSlider() {
                     as="h2"
                     className="text-[#000] font-bold pb-[53px] pt-5"
                   >
-                    Katie&nbsp;S
+                    Katie&nbsp;S.
                   </Text>
                 </div>
               </div>
@@ -445,7 +447,7 @@ function TestimonialSlider() {
                     as="h2"
                     className="text-[#000] font-bold pb-[53px] pt-5"
                   >
-                    Lisa F
+                    Lisa F.
                   </Text>
                 </div>
               </div>
@@ -521,7 +523,7 @@ function TestimonialSlider() {
                     as="h2"
                     className="text-[#000] font-bold pb-[53px] pt-5"
                   >
-                    Katie&nbsp;S
+                    Katie&nbsp;S.
                   </Text>
                 </div>
               </div>
@@ -562,7 +564,48 @@ function TestimonialSlider() {
                     as="h2"
                     className="text-[#000] font-bold pb-[53px] pt-5"
                   >
-                    Lisa F
+                    Lisa F.
+                  </Text>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className=" flex flex-col justify-center mob:p-[10px] tab:items-center 2xl:items-center ">
+                <div className="flex gap-[6px] relative justify-center top-10">
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px] "
+                  />
+                  <Image
+                    src={qutationsvg}
+                    alt="qutationsvg"
+                    className=" w-[50px] h-[87px]"
+                  />
+                </div>
+                <div className="bg-white rounded-[20px] max-w-[686px] min-h-[495px] flex justify-center items-center px-[10px] flex-col">
+                  <Text
+                    as="p"
+                    className="text-[#041F60] pt-[100px] text-center max-w-[368px] m-auto px-3"
+                  >
+                    In my personal crusade to just manage the pain of decades of
+                    back spasms and disc issues, I stumbled upon David Smith – I
+                    no longer have to manage pain. I eliminated it. David is
+                    singularly the best body mechanic I've ever met.
+                  </Text>
+                  {/* <Image
+                    src={sliderImage}
+                    alt="sliderImage"
+                    width={69}
+                    height={69}
+                    className=" pb-[53px] pt-5"
+                  /> */}
+                  <Text
+                    as="h2"
+                    className="text-[#000] font-bold pb-[53px] pt-5"
+                  >
+                    Mike T.
                   </Text>
                 </div>
               </div>
