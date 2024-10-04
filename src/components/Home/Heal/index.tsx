@@ -85,7 +85,7 @@ const Heal: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
               <Text as="p" className="my-3 ">
               They’ll help you relieve your pain by helping you {" "}
                 <span className="font-bold">
-                ealign your mind and body
+                realign your mind and body
                 </span>{" "}
                 through scientifically proven exercises, healing meditations, and other tools.
               </Text>
