@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Footer from "@/components/Footer";
 import David from "@/components/Home/David";
 import Heal from "@/components/Home/Heal";
@@ -16,19 +16,29 @@ export default function Home() {
   const workshopsRef = useRef<HTMLDivElement>(null);
   return (
     <main className="">
-      <Hero scrollToWorkshops={() => workshopsRef.current?.scrollIntoView({ behavior: 'smooth' })} />
-          <Heal scrollToWorkshops={() => workshopsRef.current?.scrollIntoView({ behavior: 'smooth' })}/>
+
+      <Hero
+        scrollToWorkshops={() =>
+          workshopsRef.current?.scrollIntoView({ behavior: "smooth" })
+        }
+      />
+      <Heal
+        scrollToWorkshops={() =>
+          workshopsRef.current?.scrollIntoView({ behavior: "smooth" })
+        }
+      />
+
       {/* <David/> */}
-      <div >
-      <Journey refvalue={workshopsRef} />
+      <div>
+        <Journey refvalue={workshopsRef} />
       </div>
-        <Workshops />
+      <Workshops />
       {/* <Heal scrollToWorkshops={() => workshopsRef.current?.scrollIntoView({ behavior: 'smooth' })}/> */}
-       <David/>
-      <Youcan/>
-        <TestimonialSlider />
-      <Joinemail/>
-      <Footer/>
+      <David />
+      <Youcan />
+      <TestimonialSlider />
+      <Joinemail />
+      <Footer />
     </main>
   );
 }
