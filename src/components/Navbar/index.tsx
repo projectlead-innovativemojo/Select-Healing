@@ -255,7 +255,6 @@ const Navbar = () => {
                       News
                     </li>
                   </a> */}
-                  {/* <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr> */}
 
                   <a
                     href="https://www.selecthealing.com/Connect-retreat"
