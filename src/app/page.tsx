@@ -16,6 +16,7 @@ export default function Home() {
   const workshopsRef = useRef<HTMLDivElement>(null);
   return (
     <main className="">
+
       <Hero
         scrollToWorkshops={() =>
           workshopsRef.current?.scrollIntoView({ behavior: "smooth" })
@@ -26,6 +27,7 @@ export default function Home() {
           workshopsRef.current?.scrollIntoView({ behavior: "smooth" })
         }
       />
+
       {/* <David/> */}
       <div>
         <Journey refvalue={workshopsRef} />
