@@ -5,7 +5,6 @@ import david from "@/public/images/home/davidphoto.png";
 import Text from "@/components/ui/Text";
 // import Button from "@/components/ui/Button";
 // import Vidpopup from "./Vidpopup";
-
 const David = () => {
   return (
     <>

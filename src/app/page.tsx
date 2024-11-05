@@ -5,6 +5,7 @@ import Heal from "@/components/Home/Heal";
 import Hero from "@/components/Home/Hero";
 import Joinemail from "@/components/Joinemail";
 import Journey from "@/components/Journey";
+import NewBook from "@/components/NewBook";
 
 import TestimonialSlider from "@/components/testimonials-slider";
 import Workshops from "@/components/Workshops";
@@ -22,6 +23,7 @@ export default function Home() {
           workshopsRef.current?.scrollIntoView({ behavior: "smooth" })
         }
       />
+      <NewBook/>
       <Heal
         scrollToWorkshops={() =>
           workshopsRef.current?.scrollIntoView({ behavior: "smooth" })
