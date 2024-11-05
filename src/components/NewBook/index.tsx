@@ -7,14 +7,14 @@ import book from "@/public/images/book/Bookcover.png";
 
 const NewBook = () => {
   return (
-    <div className="flex  tab:flex-wrap justify-center items-center bg-[#041F60] py-20 gap-14 mob:gap-10 px-5">
+    <div className="flex  tab:flex-wrap justify-center items-center bg-[#041F60] py-20 gap-10 mob:gap-10 px-5">
       <div className="">
-        <Image src={book} alt="" width={500} height={650} />
+        <Image src={book} alt="" width={650} height={650} />
       </div>
       <div className="">
         <Text
           as="h1"
-          className="text-[#E0B15E] text-[55px] my-3 mob:text-center mob:text-[30px] mob:leading-[50px]"
+          className="text-[#E0B15E] text-[45px] my-3 mob:text-center mob:text-[30px] mob:leading-normal"
         >
           A New Book is Coming!
         </Text>
