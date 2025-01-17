@@ -3,11 +3,13 @@ import Image from "next/image";
 
 import Text from "../ui/Text";
 
-import book from "@/public/images/book/Bookcover.png";
+import book from "@/public/images/book/book-avail.png";
+import bg from "@/public/images/book/new-bg.png";
 
 const NewBook = () => {
   return (
-    <div className="flex  tab:flex-wrap justify-center items-center bg-[#041F60] py-20 gap-10 mob:gap-10 px-5">
+    <div className="flex relative tab:flex-wrap justify-center items-center bg-[#041F60] py-20 gap-10 mob:gap-10 px-5">
+      {/* <Image src={bg} alt="book image" className="absolute w-full h-full" /> */}
       <div className="">
         <Image src={book} alt="" width={650} height={650} />
       </div>
