@@ -15,7 +15,6 @@ interface HeroProps {
   scrollToWorkshops: () => void;
 }
 const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
-
   const [showFirstText, setShowFirstText] = useState(true);
 
   useEffect(() => {
@@ -29,25 +28,20 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
     <div className="relative min-h-[100vh] mob:min-h-[600px]">
       <Navbar />
       <Image
-          className="absolute object-cover bg-center w-full  h-full top-0 z-0"
-          src={bg}
-          alt=""
-          width={2114}
-          height={1037.58}
-        />
+        className="absolute object-cover bg-center w-full  h-full top-0 z-0"
+        src={bg}
+        alt=""
+        width={2114}
+        height={1037.58}
+      />
       <div className=" w-full   min-h-[70vh] heroswipe mob:min-h-[500px]  text-container mob:flex mob:items-center  ">
-        
-
         {/* content */}
 
-     
-        <div 
-         className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5 cursor-pointer
-           ${
-          showFirstText ? 'fade-in z-30' : 'fade-out z-10'
-        }
+        <div
+          className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5 cursor-pointer
+           ${showFirstText ? "fade-in z-30" : "fade-out z-10"}
         `}
-       >
+        >
           <div className="max-w-[906.89px] w-full">
             <Text
               as="h1"
@@ -79,14 +73,12 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
         </div>
 
         {/*  */}
-        
-        <div  
-         className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5  
-          ${
-            showFirstText ? 'fade-out z-10' : 'fade-in z-30'
-          }
-        `
-        }>
+
+        <div
+          className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5  
+          ${showFirstText ? "fade-out z-10" : "fade-in z-30"}
+        `}
+        >
           <div className="max-w-[906.89px] w-full">
             <Text
               as="h1"
@@ -105,43 +97,43 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
               as="h1"
               className="max-w-[688.48px] relative font-bold text-[25px] mob:text-[25px] mob:leading-[34px] mob:max-w-full mob:text-center mt-5 mb-5 mob:mb-2"
             >
-                Date:
+              Date:
               <span className="relative z-10 font-medium">
                 {" "}
-                 September <br className="hidden mob:block" /> 18 – 22, 2025
+                September <br className="hidden mob:block" /> 18 – 22, 2025
               </span>
               <br />
-              
-           
-              
             </Text>
             <Text
               as="h1"
               className="max-w-[688.48px] relative font-bold text-[25px] mob:text-[25px] mob:leading-[34px] mob:max-w-full mob:text-center mt-1 mb-5 mob:mb-2"
             >
-              
-              
-              Location: <br className="hidden mob:block" /> 
+              Location: <br className="hidden mob:block" />
               <span className="relative z-10 font-medium">
                 {" "}
                 Sun Valley, Idaho
               </span>
-              
             </Text>
             <div className="flex flex-wrap gap-6 mob:gap-1 mob:justify-center">
               <div className="flex-col w-full max-w-[200.75px]">
-              <Link href="https://www.selecthealing.com/Connect-retreat" target="_blank"> 
-                <button className="max-w-[200.75px] relative z-50 mt-5 w-full h-[55.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]">
-                  Learn More
-                </button>
+                <Link
+                  href="https://www.selecthealing.com/Connect-retreat"
+                  target="_blank"
+                >
+                  <button className="max-w-[200.75px] relative z-50 mt-5 w-full h-[55.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]">
+                    Learn More
+                  </button>
                 </Link>
               </div>
 
               <div className="flex-col w-full max-w-[200.75px]">
-              <Link href="https://buy.stripe.com/aEU9B37Xbburecg3cn" target="_blank">
-                <button className="max-w-[200.75px] relative z-50 mt-5 w-full h-[55.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]">
-                  Register Now
-                </button>
+                <Link
+                  href="https://buy.stripe.com/aEU9B37Xbburecg3cn"
+                  target="_blank"
+                >
+                  <button className="max-w-[200.75px] relative z-50 mt-5 w-full h-[55.66px] rounded-[32.83px] bg-[#E0B15E] border-[#E0B15E] border text-[20px] font-poppins font-bold leading-[26px] text-[#FFFFFF]">
+                    Register Now
+                  </button>
                 </Link>
               </div>
             </div>
