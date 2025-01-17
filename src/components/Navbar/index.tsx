@@ -33,7 +33,7 @@ const Navbar = () => {
         opacity: 1,
         x: 0,
         duration: 0.7,
-        stagger: 0.2, 
+        stagger: 0.2,
         ease: "power2.out", // Easing function
       });
     }
@@ -79,7 +79,7 @@ const Navbar = () => {
                   <hr className="h-px my-4 bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
                   <Link
                     href="https://www.selecthealing.com/news"
-                    target="_blank" 
+                    target="_blank"
                   >
                     <li className="font-semibold  text-[20px] text-left leading-[23.2px] px-4 text-[#041F60] font-poppins mt-3">
                       News
@@ -105,6 +105,15 @@ const Navbar = () => {
           >
             <li className="font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins">
               Upcoming Retreats
+            </li>
+          </Link>
+          <Link
+            href="https://www.selecthealing.com/login"
+            target="_blank"
+            className="h-[46px]"
+          >
+            <li className="font-semibold text-[20px] px-[35px] h-[46px] flex justify-center items-center mt-[18px] rounded-[6px] leading-[83.2px] text-[#fff] bg-[#012284] font-poppins">
+              Login
             </li>
           </Link>
         </ul>
@@ -141,7 +150,7 @@ const Navbar = () => {
             <Drawer isOpen={isOpen} onClose={onClose}>
               <div className="flex items-center h-full w-full ">
                 <ul className="font-normal  w-full  mob:left-0 mob:w-full z-50 flex flex-col py-4 md:p-0 mt-4 gap-[0px]  rtl:space-x-reverse md:mt-0 ">
-                <div
+                  <div
                     className="flex justify-center items-center"
                     onMouseLeave={() => setdropDownOpen(false)}
                   >
@@ -151,7 +160,9 @@ const Navbar = () => {
                         onClick={handleResOurWorkToggle}
                       >
                         <a
-                          className={"text-[20px] pl-5 text-white font-poppins text-center  leading-[25.5px]"}
+                          className={
+                            "text-[20px] pl-5 text-white font-poppins text-center  leading-[25.5px]"
+                          }
                           onClick={(e) => e.stopPropagation()}
                         >
                           Explore More
@@ -223,7 +234,6 @@ const Navbar = () => {
                     </li>
                   </a>
                   <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
-                 
 
                   {/* <a
                     href="https://www.selecthealing.com/login"
@@ -267,7 +277,15 @@ const Navbar = () => {
                   </a>
                   <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
 
-                 
+                  <a
+                    href="https://www.selecthealing.com/login"
+                    target="_blank"
+                    className="block  text-[20px] font-poppins font-medium w-[140px]  mx-auto leading-[25.5px] text-[#FFFFFF]  "
+                  >
+                    <li className="py-[15px] list-items bg-[#fff] text-[#012284] mt-5 w-[140px] h-[46px] flex justify-center items-center rounded-[6px] mx-auto">
+                      Login
+                    </li>
+                  </a>
                   {/* <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr> */}
                 </ul>
               </div>

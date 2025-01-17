@@ -35,7 +35,7 @@ const Footer = () => {
                 as="p"
                 className="text-[#7B7B7B] text-[16px] text-center capitalize"
               >
-                © 2024 Select Healing. All Rights Reserved.
+                © 2025 Select Healing. All Rights Reserved.
               </Text>
             </div>
 
