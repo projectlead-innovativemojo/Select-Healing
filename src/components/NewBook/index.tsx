@@ -7,7 +7,6 @@ import Button from "../ui/Button";
 
 import book from "@/public/images/book/straight-book.png";
 import bg from "@/public/images/book/new-bg.png";
-
 const NewBook = () => {
   return (
     <div className="flex relative tab:flex-wrap justify-center items-center bg-[#041F60] py-20 gap-10 mob:gap-10 px-5">
