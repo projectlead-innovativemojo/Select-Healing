@@ -10,6 +10,7 @@ import headingbg from "@/public/images/home/headingbg.png";
 import j1 from "@/public/images/home/backpain.png";
 import j2 from "@/public/images/home/sundaystretch1.png";
 import j3 from "@/public/images/home/connect.png";
+import fourth from "@/public/images/home/image-for-desktop.png"
 import Link from "next/link";
 interface JourneyProps {
   refvalue: React.RefObject<HTMLDivElement>;
@@ -82,8 +83,9 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
 
           <div className="w-full flex flex-wrap justify-center gap-14 pt-16 ">
             {/* 1 */}
-            <div className="flex-col w-full max-w-[370.09px]">
+            <div className="flex-col w-full max-w-[280.09px]">
               <Image src={j1} alt="" width={427.09} height={289.44} />
+              <div>
               <Text
                 as="p"
                 className="text-[#041F60] text-center leading-[26px] mt-10"
@@ -93,6 +95,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
               <Text as="h2" className="text-center">
               Healing Back Pain
               </Text>
+              </div>
               <Link
                 href="https://www.selecthealing.com/healing-back-pain-5045b7e2-262c-428c-a825-42d1048fba17" target="_blank"
                 className="flex justify-center mt-8"
@@ -104,8 +107,9 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
             </div>
 
             {/* 2 */}
-            <div className="flex-col w-full max-w-[370.09px]">
+            <div className="flex-col w-full max-w-[280.09px]">
               <Image src={j3} alt="" width={427.09} height={289.44} />
+
               <Text
                 as="p"
                 className="text-[#041F60] text-center leading-[26px] mt-10"
@@ -131,8 +135,9 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
           
 
             {/* 3 */}
-            <div className="flex-col w-full max-w-[370.09px]">
+            <div className="flex-col w-full max-w-[280.09px]">
               <Image src={j2} alt="" width={427.09} height={289.44} />
+              <div className="min-h-[109px]">
               <Text
                 as="p"
                 className="text-[#041F60] text-center leading-[26px] mt-10"
@@ -142,6 +147,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
               <Text as="h2" className="text-center">
                 Sunday Stretch
               </Text>
+              </div>
               <Link
                 href="https://www.selecthealing.com/sunday-stretch" target="_blank"
                 className="flex justify-center mt-8" 
@@ -152,6 +158,29 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
               </Link>
             </div>
 
+            {/* 4 */}
+            <div className="flex-col w-full max-w-[280.09px]">
+              <Image src={fourth} alt="" width={427.09} height={289.44} />
+              <div className="md:min-h-[109px] min-h-auto">
+              <Text
+                as="p"
+                className="text-[#041F60] text-center leading-[26px] mt-10"
+              >
+               {""}
+              </Text>
+              <Text as="h2" className="text-center">
+               Ultimate Back Strength
+              </Text>
+              </div>
+              <Link
+                href="https://www.selecthealing.com/offers/o2uMN73b/checkout" target="_blank"
+                className="flex justify-center mt-8" 
+              >
+                <Button className="max-w-[235.55px] h-[65.66px]">
+                  Learn More
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
