@@ -196,7 +196,7 @@ const Journey: FC<JourneyProps> = ({ refvalue }) => {
                   {""}
                 </Text>
                 <Text as="h2" className="text-center">
-                  Strong for Life - The Back Pain Blueprin
+                  Strong for Life - The Back Pain Blueprint
                 </Text>
               </div>
               <Link
