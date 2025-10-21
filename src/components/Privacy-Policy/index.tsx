@@ -177,7 +177,7 @@ const PrivacyPolicy = () => {
 <Text className='text-black py-2'>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</Text>
 <Text className='text-black py-2'>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</Text>
 <Text as='h2'>Contact Us</Text>
-<Text className='text-black py-2'>If you have any questions about this Privacy Policy, You can contact us:</Text>
+<Text className='text-black py-2'>If you have any questions about this Privacy Policy, You can contact us on following details:</Text>
 <ul className='list-disc ml-6'>
 <li className='text-[20px] font-normal leading-[26px] font-poppins text-black py-2'>By visiting this page on our website: <a href="https://www.selecthealing.com/contact" rel="external nofollow noopener" target="_blank">https://www.selecthealing.com/contact</a></li>
 </ul>
