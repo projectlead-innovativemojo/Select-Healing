@@ -5,7 +5,6 @@ import Link from "next/link";
 import footlogo from "@/public/images/home/logofooter.png";
 import Text from "../ui/Text";
 const Footer = () => {
-
   
   return (
     <>
@@ -35,7 +34,7 @@ const Footer = () => {
                 as="p"
                 className="text-[#7B7B7B] text-[16px] text-center capitalize"
               >
-                © 2025 Select Healing. All Rights Reserved.
+                © 2026 Select Healing. All Rights Reserved.
               </Text>
             </div>
 
