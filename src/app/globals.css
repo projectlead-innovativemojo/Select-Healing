@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .swiper-pagination-bullet-active {
   width: 15px !important;
   height: 15px !important;
