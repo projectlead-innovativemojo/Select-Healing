@@ -11,6 +11,11 @@ import Button from "@/components/ui/Button";
 import SlideContent from "./SlideContent";
 import Link from "next/link";
 
+// The September 18–22, 2025 Sun Valley retreat has passed, so the retreat
+// slide is hidden (not deleted). To show a future retreat, update the date,
+// location and links in the retreat block below, then set this to true.
+const SHOW_UPCOMING_RETREAT = false;
+
 interface HeroProps {
   scrollToWorkshops: () => void;
 }
@@ -18,6 +23,8 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
   const [showFirstText, setShowFirstText] = useState(true);
 
   useEffect(() => {
+    // With the retreat slide hidden there is nothing to rotate to.
+    if (!SHOW_UPCOMING_RETREAT) return;
     const interval = setInterval(() => {
       setShowFirstText((prev) => !prev);
     }, 3500); // Change text every 4 seconds
@@ -74,8 +81,9 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
 
         {/*  */}
 
+        {SHOW_UPCOMING_RETREAT && (
         <div
-          className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5  
+          className={`absolute z-10 flex justify-center items-center w-full mb-[50px] mob:mb-0 pb-[70px] mob:px-5
           ${showFirstText ? "fade-out z-10" : "fade-in z-30"}
         `}
         >
@@ -139,6 +147,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToWorkshops }) => {
             </div>
           </div>
         </div>
+        )}
         {/* <SlideContent scrollToWorkshops={scrollToWorkshops} /> */}
       </div>
     </div>
