@@ -14,11 +14,11 @@ import fourth from "@/public/images/home/image-for-desktop.png";
 import fifth from "@/public/images/home/Image (15).png";
 import Link from "next/link";
 interface JourneyProps {
-  refvalue: React.RefObject<HTMLDivElement>;
+  refvalue: React.RefObject<HTMLDivElement | null>;
 }
 
 const Journey: FC<JourneyProps> = ({ refvalue }) => {
-  const videoRef: RefObject<HTMLVideoElement> = useRef(null);
+  const videoRef: RefObject<HTMLVideoElement | null> = useRef(null);
   useEffect(() => {
     const video = videoRef.current;
 
