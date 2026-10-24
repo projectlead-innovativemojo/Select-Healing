@@ -8,6 +8,10 @@ import { FaChevronDown } from "react-icons/fa";
 import Drawer from "../ui/Drawer";
 import logo from "@/public/images/home/logo.png";
 import Link from "next/link";
+
+// The Connect Retreat event is over, so its "Upcoming Retreats" menu link is
+// hidden (not deleted). Set this to true to show it again.
+const SHOW_RETREAT_LINK = false;
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [dropDownOpen, setdropDownOpen] = useState(false);
@@ -99,14 +103,16 @@ const Navbar = () => {
               Store
             </li>
           </Link>
-          <Link
-            href="https://www.selecthealing.com/Connect-retreat"
-            target="_blank"
-          >
-            <li className="font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins">
-              Upcoming Retreats
-            </li>
-          </Link>
+          {SHOW_RETREAT_LINK && (
+            <Link
+              href="https://www.selecthealing.com/Connect-retreat"
+              target="_blank"
+            >
+              <li className="font-semibold  text-[20px] leading-[83.2px] text-[#041F60] font-poppins">
+                Upcoming Retreats
+              </li>
+            </Link>
+          )}
           <Link
             href="https://www.selecthealing.com/login"
             target="_blank"
@@ -266,6 +272,8 @@ const Navbar = () => {
                     </li>
                   </a> */}
 
+                  {SHOW_RETREAT_LINK && (
+                    <>
                   <a
                     href="https://www.selecthealing.com/Connect-retreat"
                     target="_blank"
@@ -276,6 +284,8 @@ const Navbar = () => {
                     </li>
                   </a>
                   <hr className="h-px  bg-[#C0C0C0] border-0 dark:bg-[#C0C0C0]"></hr>
+                    </>
+                  )}
 
                   <a
                     href="https://www.selecthealing.com/login"
